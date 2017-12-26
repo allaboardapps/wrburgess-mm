@@ -52,20 +52,14 @@ xml.feed(
         xml.pubDate article.date.to_time.iso8601
         xml.updated article.date.to_time.iso8601
         xml.itunes :duration, text: "15:15"
+        xml.itunes :episodeType, "full"
         xml.description do
           xml.cdata! article.body
         end
         xml.enclosure url: "https://testing.com/#{article.data.audio_file_name}", length: "37934213", type: "audio/mp3"
         xml.link "https://testing.com/#{article.data.audio_file_name}"
+        xml.guid({ isPermaLink: false }, "e6804555-1da6-4c8e-9b88-18d223977825")
       end
     end
   end
 end
-
-# <itunes:type>episodic</itunes:type>
-# <itunes:subtitle>
-# Ben Orenstein and Derrick Reimer on the intersection of code and business
-# </itunes:subtitle>
-# <itunes:author>Ben Orenstein and Derrick Reimer</itunes:author>
-# <enclosure url="https://aphid.fireside.fm/d/1437767933/6fccc249-743a-4298-a664-d8d863346db9/12344cfb-fef6-4c97-a642-92ebe2acbc88.mp3" length="37934213" type="audio/mp3"/>
-# <guid isPermaLink="false">12344cfb-fef6-4c97-a642-92ebe2acbc88</guid>
