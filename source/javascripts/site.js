@@ -1,0 +1,11 @@
+$('.post-index li').click((evnt) => {
+  $('.post-index li').removeClass('active');
+  $('.post-show .post').removeClass('active');
+
+  const $li = $(evnt.target);
+  const postId = $li.data('id');
+  const $post = $('.post[data-id="' + postId + '"]');
+
+  $li.addClass('active');
+  $post.addClass("active");
+});

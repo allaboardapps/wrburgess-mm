@@ -1,0 +1,34 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px 30px;
+  align-items: stretch;
+
+  .person {
+    background-color: lightblue;
+    text-align: center;
+  }
+
+  .person-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .person-2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .logo {
+    background-color: lightgreen;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+  .headline {
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}

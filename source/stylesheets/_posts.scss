@@ -1,0 +1,42 @@
+.posts {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .post-index {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    ul {
+      padding: 0px;
+      margin: 0px;
+
+      li {
+        background-color: lightyellow;
+        list-style-type: none;
+        height: 50px;
+
+        &.active {
+          background-color: lightblue;
+        }
+      }
+    }
+  }
+
+  .post-show {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    background-color: lightblue;
+
+    .post {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+  }
+}

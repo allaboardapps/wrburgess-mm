@@ -1,0 +1,15 @@
+<div class="post-index">
+  <ul>
+    <% blog.articles[0...5].each do |article| %>
+      <li data-id="<%= article.data.id %>"><%= article.title %></li>
+    <% end %>
+  </ul>
+</div>
+<div class="post-show">
+  <% blog.articles[0...5].each do |article| %>
+    <div class="post" data-id="<%= article.data.id %>">
+      <h2><%= article.title %></h2>
+      <p><%= article.body %></p>
+    </div>
+  <% end %>
+</div>
