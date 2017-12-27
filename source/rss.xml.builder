@@ -1,4 +1,5 @@
-# xml.instruct!
+require "securerandom"
+
 xml.feed(
   "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",
   "xmlns:dc" => "http://purl.org/dc/elements/1.1/",
@@ -13,7 +14,7 @@ xml.feed(
 ) do
   xml.channel do
     xml.title "CTO Think"
-    xml.description "The podcast description"
+    xml.description "A podcast about how CTOs think about technology and business problems"
     xml.link "href" => "https://www.ctothink.com/feed.xml", "rel" => "self"
     xml.updated blog.articles.first.date.to_time.iso8601
     xml.author do
@@ -27,7 +28,7 @@ xml.feed(
     xml.itunes :subtitle, "CTO Think podcast subtitle"
     xml.itunes :summary, "CTO Think podcast summary"
     xml.itunes :type, "episodic"
-    xml.itunes :image, href: "https://cdn.com/logo.jpg"
+    xml.itunes :image, href: image_url("cto_think_logo.jpg")
     xml.itunes :owner do
       xml.itunes :name, "Don VanDemark and Randy Burgess"
       xml.itunes :email, "advice@ctothink.com"
@@ -51,14 +52,14 @@ xml.feed(
         xml.published article.date.to_time.iso8601
         xml.pubDate article.date.to_time.iso8601
         xml.updated article.date.to_time.iso8601
-        xml.itunes :duration, text: "15:15"
+        xml.itunes :duration, text: article.data.duration
         xml.itunes :episodeType, "full"
         xml.description do
           xml.cdata! article.body
         end
-        xml.enclosure url: "https://testing.com/#{article.data.audio_file_name}", length: "37934213", type: "audio/mp3"
-        xml.link "https://testing.com/#{article.data.audio_file_name}"
-        xml.guid({ isPermaLink: false }, "e6804555-1da6-4c8e-9b88-18d223977825")
+        xml.enclosure url: podcast_file_url(article.data.audio_file_name), length: "37934213", type: "audio/mp3"
+        xml.link podcast_file_url(article.data.audio_file_name)
+        xml.guid({ isPermaLink: false }, SecureRandom.uuid)
       end
     end
   end

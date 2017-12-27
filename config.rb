@@ -56,3 +56,15 @@ activate :livereload
 activate :gzip
 
 set(:port, 3000)
+
+
+helpers do
+  def podcast_file_url(file_name)
+    "https://s3.amazonaws.com/cto-think-podcast-assets/#{file_name}"
+  end
+
+  def image_url(file_name)
+    "https://www.ctothink.com/images/#{file_name}"
+  end
+end
+
