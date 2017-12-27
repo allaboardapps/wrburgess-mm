@@ -5,8 +5,16 @@ header {
   align-items: stretch;
 
   .person {
-    background-color: lightblue;
     text-align: center;
+
+    .social {
+
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 10px;
+      }
+    }
   }
 
   .person-1 {
@@ -20,14 +28,12 @@ header {
   }
 
   .logo {
-    background-color: lightgreen;
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 2;
   }
 
   .headline {
-    background-color: pink;
     grid-column-start: 1;
     grid-column-end: 4;
   }
