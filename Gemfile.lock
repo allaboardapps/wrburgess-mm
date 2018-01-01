@@ -124,7 +124,7 @@ DEPENDENCIES
   middleman-livereload (= 3.4.6)
 
 RUBY VERSION
-   ruby 2.5.0p0
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.16.1
