@@ -1,4 +1,4 @@
-$('.post-index li').click((evnt) => {
+$('.post-index li').click(function(evnt) {
   $('.post-index li').removeClass('active');
   $('.post-show .post').removeClass('active');
 

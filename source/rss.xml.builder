@@ -16,7 +16,7 @@ xml.feed(
     xml.title "CTO Think"
     xml.description "A podcast about how CTOs think about technology and business problems"
     xml.link "href" => "https://www.ctothink.com/feed.xml", "rel" => "self"
-    xml.updated blog.articles.first.date.to_time.iso8601
+    xml.updated blog.articles.last.date.to_time.iso8601
     xml.author do
       xml.name "Don VanDemark and Randy Burgess"
     end
@@ -45,21 +45,23 @@ xml.feed(
     xml.itunes :explicit, "no"
 
     blog.articles.each do |article|
-      xml.item do
-        xml.title article.title
-        xml.author "Don VanDemark and Randy Burgess"
-        xml.id article.data.id
-        xml.published article.date.to_time.iso8601
-        xml.pubDate article.date.to_time.iso8601
-        xml.updated article.date.to_time.iso8601
-        xml.itunes :duration, text: article.data.duration
-        xml.itunes :episodeType, "full"
-        xml.description do
-          xml.cdata! article.body
+      if article.data.published
+        xml.item do
+          xml.title article.title
+          xml.author "Don VanDemark and Randy Burgess"
+          xml.id article.data.id
+          xml.published article.date.to_time.iso8601
+          xml.pubDate article.date.to_time.iso8601
+          xml.updated article.date.to_time.iso8601
+          xml.itunes :duration, text: article.data.duration
+          xml.itunes :episodeType, "full"
+          xml.description do
+            xml.cdata! article.body
+          end
+          xml.enclosure url: podcast_file_url(article.data.audio_file_name), length: "37934213", type: "audio/mp3"
+          xml.link podcast_file_url(article.data.audio_file_name)
+          xml.guid({ isPermaLink: false }, SecureRandom.uuid)
         end
-        xml.enclosure url: podcast_file_url(article.data.audio_file_name), length: "37934213", type: "audio/mp3"
-        xml.link podcast_file_url(article.data.audio_file_name)
-        xml.guid({ isPermaLink: false }, SecureRandom.uuid)
       end
     end
   end
