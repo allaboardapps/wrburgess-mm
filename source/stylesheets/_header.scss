@@ -1,7 +1,7 @@
 header {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 200px 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
   align-items: stretch;
 
   .person {
@@ -17,24 +17,27 @@ header {
     }
   }
 
-  .person-1 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-  }
-
-  .person-2 {
-    grid-column-start: 3;
-    grid-column-end: 3;
-  }
-
   .logo {
-    text-align: center;
-    grid-column-start: 2;
+    align-self: end;
+    grid-column-start: 1;
     grid-column-end: 2;
   }
 
   .headline {
+    align-self: start;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .person-1 {
+    align-self: center;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2;
+  }
+
+  .person-2 {
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 }

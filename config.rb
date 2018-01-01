@@ -54,9 +54,15 @@ end
 activate :asset_hash
 activate :livereload
 activate :gzip
+activate :sprockets
+
+if defined? RailsAssets
+  RailsAssets.load_paths.each do |path|
+    sprockets.append_path path
+  end
+end
 
 set(:port, 3000)
-
 
 helpers do
   def podcast_file_url(file_name)

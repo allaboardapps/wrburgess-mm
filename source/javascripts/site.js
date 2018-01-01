@@ -1,3 +1,6 @@
+//= require jquery
+//= require mediaelement
+
 $('.post-index li').click(function(evnt) {
   $('.post-index li').removeClass('active');
   $('.post-show .post').removeClass('active');
@@ -7,5 +10,11 @@ $('.post-index li').click(function(evnt) {
   const $post = $('.post[data-id="' + postId + '"]');
 
   $li.addClass('active');
-  $post.addClass("active");
+  $post.addClass('active');
+});
+
+$('audio').mediaelementplayer({
+  success: function(mediaElement, originalNode, instance) {
+
+  }
 });
