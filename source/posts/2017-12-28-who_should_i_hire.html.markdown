@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Episode 2 - Who should I hire?
-date: 2018/01/02
+date: 2017/12/28
 audio_file_name: cto_think_episode_0002.mp3
 duration: 25:27
 published: false
