@@ -12,7 +12,10 @@
       class="post-body <%= active_class %>"
       data-id="<%= article.data.id %>"
     >
-      <a href="#listen" class="listen">Listen</a>
+      <a href="#listen" class="listen">
+        <%= image_tag("headphones_icon.svg", width: "20", height: "20", alt: "Headphones Icon", title: "Listen to the podcast") %>
+        Listen
+      </a>
       <%= article.body %>
     </div>
   <% end %>

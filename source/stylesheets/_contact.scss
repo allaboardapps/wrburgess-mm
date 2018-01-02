@@ -8,6 +8,11 @@
   form {
     margin-bottom: 40px;
 
+    @media screen and (min-device-width: 450px) {
+      margin: 0 auto;
+      width: 60%;
+    }
+
     .form-group {
       margin: 0 0 10px 0;
     }
@@ -33,6 +38,12 @@
 
   .direct-contact {
     margin-bottom: 40px;
+
+    @media screen and (min-device-width: 450px) {
+      margin: 0 auto;
+      text-align: center;
+      width: 60%;
+    }
 
     .email-info {
       margin-bottom: 20px;

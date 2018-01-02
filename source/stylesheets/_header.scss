@@ -7,27 +7,39 @@ header {
   .logo {
     align-self: center;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     align-self: center;
     justify-self: center;
 
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+
+    @media screen and (min-device-width: 450px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+
+      margin-bottom: 40px;
+    }
   }
 
   .headline {
     font-family: $font-header;
     font-size: 2.0em;
     align-self: start;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 3;
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 0;
+
+    @media screen and (min-device-width: 450px) {
+      grid-column-start: 2;
+      grid-column-end: 3;
+
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
   }
 
   .person {
-    grid-column-start: 1;
-    grid-column-end: 3;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 20px;
@@ -53,6 +65,7 @@ header {
     }
 
     .social {
+      padding-left: 0;
 
       li {
         display: inline-block;
@@ -66,11 +79,21 @@ header {
     align-self: start;
     grid-column-start: 1;
     grid-column-end: 3;
+
+    @media screen and (min-device-width: 450px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
   }
 
   .person-2 {
     align-self: start;
     grid-column-start: 1;
     grid-column-end: 3;
+
+    @media screen and (min-device-width: 450px) {
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
   }
 }
