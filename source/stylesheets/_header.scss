@@ -25,7 +25,32 @@ header {
   }
 
   .person {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 20px;
+
+    .avatar {
+      grid-column-start: 1;
+      grid-column-end: 1;
+      align-self: start;
+      justify-self: end;
+    }
+
+    .details {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      align-self: start;
+      justify-self: start;
+      margin-left: 10px;
+
+      h3 {
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+    }
 
     .social {
 
