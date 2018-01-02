@@ -2,41 +2,38 @@
   grid-column-start: 1;
   grid-column-end: 4;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  h3 {
+    background-color: $white;
+    padding-left: 10px;
 
-  .post-index {
-    grid-column-start: 1;
-    grid-column-end: 2;
-
-    ul {
-      padding: 0px;
-      margin: 0px;
-
-      li {
-        background-color: lightyellow;
-        list-style-type: none;
-        height: 50px;
-
-        &.active {
-          background-color: lightblue;
-        }
-      }
+    &.active {
+      background-color: $grey;
+      margin: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
   }
 
-  .post-show {
-    grid-column-start: 2;
-    grid-column-end: 4;
+  .post-body {
+    display: none;
 
-    background-color: lightblue;
+    p {
+      margin-top: 0;
+    }
 
-    .post {
-      display: none;
+    a.listen {
+      display: block;
+      margin-bottom: 10px;
+    }
 
-      &.active {
-        display: block;
-      }
+    &.active {
+      background-color: $grey;
+      display: block;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-bottom: 20px;
+      margin-top: 0;
+      margin-bottom: 20px;
     }
   }
 }

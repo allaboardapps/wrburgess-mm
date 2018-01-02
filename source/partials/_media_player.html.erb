@@ -1,3 +1,5 @@
+<% article = blog.articles.first %>
+<a id="listen"></a>
 <h2>Listen</h2>
-<h3>Episode 3: When Best to Work on Tech Debt?</h3>
-<audio src="<%= podcast_file_url('cto_think_episode_0002.mp3') %>"></audio>
+<h3><%= article.title %></h3>
+<audio src="<%= podcast_file_url(article.data.audio_file_name) %>" preload="auto" width="100%"></audio>

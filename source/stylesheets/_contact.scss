@@ -1,16 +1,12 @@
-.contact-form {
-  margin: 0 0 40px 0;
+.contact {
+  margin-bottom: 40px;
 
   h2 {
-    width: 40%;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
+
   }
 
   form {
-    width: 40%;
-    margin: 0 auto;
+    margin-bottom: 40px;
 
     .form-group {
       margin: 0 0 10px 0;
@@ -32,6 +28,14 @@
     button {
       display: block;
       width: 100px;
+    }
+  }
+
+  .direct-contact {
+    margin-bottom: 40px;
+
+    .email-info {
+      margin-bottom: 20px;
     }
   }
 }

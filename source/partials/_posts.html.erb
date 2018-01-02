@@ -1,18 +1,19 @@
 <h2>Episodes</h2>
-<div class="post-index">
-  <ul>
-    <% blog.articles.each_with_index do |article, index| %>
-      <% active_class = index == 0 ? "active" : nil %>
-      <li class="<%= active_class %>" data-id="<%= article.data.id %>"><%= article.title %></li>
-    <% end %>
-  </ul>
-</div>
-<div class="post-show">
+<div class="posts">
   <% blog.articles.each_with_index do |article, index| %>
     <% active_class = index == 0 ? "active" : nil %>
-    <div class="post <%= active_class %>" data-id="<%= article.data.id %>">
-      <h2><%= article.title %></h2>
-      <p><%= article.body %></p>
+    <h3
+      class="<%= active_class %>"
+      data-id="<%= article.data.id %>"
+      data-file-src="<%= podcast_file_url(article.data.audio_file_name) %>">
+      <%= article.title %>
+    </h3>
+    <div
+      class="post-body <%= active_class %>"
+      data-id="<%= article.data.id %>"
+    >
+      <a href="#listen" class="listen">Listen</a>
+      <%= article.body %>
     </div>
   <% end %>
 </div>
