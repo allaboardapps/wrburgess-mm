@@ -25,11 +25,10 @@ xml.rss(
     end
     xml.copyright "Copyright 2017-2018 CTO Think. All Rights Reserved."
     xml.itunes :author, "Don VanDemark and Randy Burgess"
-    xml.itunes :subtitle, "CTO Think podcast subtitle"
     xml.itunes :summary, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :subtitle, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :type, "episodic"
-    xml.itunes :image, href: image_path("cto-think-logo-itunes.jpg")
+    xml.itunes :image, href: "https://s3.amazonaws.com/cto-think-podcast-assets/cto-think-logo-itunes.jpg"
     xml.itunes :keywords, "technology, business, leadership, management, cto, executive"
     xml.itunes :owner do
       xml.itunes :name, "Don VanDemark and Randy Burgess"
