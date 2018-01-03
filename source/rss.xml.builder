@@ -54,9 +54,14 @@ xml.rss(
           xml.published article.date.to_time.iso8601
           xml.pubDate article.date.to_time.iso8601
           xml.updated article.date.to_time.iso8601
+          xml.itunes :image, href: "https://s3.amazonaws.com/cto-think-podcast-assets/cto-think-logo-itunes.jpg"
           xml.itunes :duration, text: article.data.duration
           xml.itunes :episodeType, "full"
-          xml.summary do
+          xml.itunes :episode, article.data.id
+          xml.itunes :explicit, "no"
+          xml.itunes :keywords, article.data.keywords
+          xml.itunes :subtitle, article.data.summary
+          xml.itunes :summary do
             xml.cdata! article.data.summary
           end
           xml.description do
