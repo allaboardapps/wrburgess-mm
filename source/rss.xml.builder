@@ -66,9 +66,11 @@ xml.rss(
           xml.itunes :email, config[:site_email]
           xml.googleplay :author, config[:site_name]
           xml.googleplay :email, config[:site_email]
+          xml.image href: "#{config[:cdn_url]}/cto-think-logo-itunes.jpg"
           xml.itunes :image, href: "#{config[:cdn_url]}/cto-think-logo-itunes.jpg"
           xml.googleplay :image, href: "#{config[:cdn_url]}/cto-think-logo-itunes.jpg"
-          xml.itunes :duration, text: article.data.duration
+          xml.duration article.data.duration
+          xml.itunes :duration, article.data.duration
           xml.itunes :episodeType, "full"
           xml.itunes :episode, article.data.id
           xml.itunes :explicit, article.data.explicit

@@ -39,6 +39,7 @@
 
 ## Feed Submissions
 
+* Google Sitemap: https://www.google.com/webmasters/tools/sitemap-list?pli=1
 * CastFeedValidator: http://castfeedvalidator.com
 * Apple Podcasts: https://podcastsconnect.apple.com/my-podcasts/new-feed
 * Stitcher: http://www.stitcher.com/content-providers or https://www.stitcher.com/faqs

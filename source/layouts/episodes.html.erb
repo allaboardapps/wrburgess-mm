@@ -3,20 +3,33 @@
     <header>
       <%= partial "partials/header" %>
     </header>
-    <div class="content">
+    <div class="content episode">
       <h1><%= current_page.title %></h1>
       <h3>Listen</h3>
       <audio src="<%= cdn_file_url(current_page.data.audio_file_name) %>" preload="auto" width="100%"></audio>
-      <h3>Show Notes</h3>
-      <div class="pub-date">
-        Episode <%= current_page.data.id %>
+      <h3>Details</h3>
+        <div class="pub-date">
+          <span class="label">Published:</span>&nbsp;
+          <%= current_page.date.strftime("%A, %B %w, %Y") %>
+        </div>
+        <div class="duration">
+          <span class="label">Duration:</span>&nbsp;
+          <%= current_page.data.duration %>
+        </div>
+        <div class="file-size">
+          <span class="label">File Size:</span>&nbsp;
+          <%= current_page.data.file_size_bytes/1000000 %> MB
+        </div>
+        <div class="download">
+          <span class="label">Download:</span>&nbsp;
+          <a href="<%= cdn_file_url(current_page.data.audio_file_name) %>" class="webpage" download>
+            Audio File (mp3)
+          </a>
+        </div>
+        <article>
+          <%= current_page.body %>
+        </article>
       </div>
-      <div class="pub-date">
-        <%= current_page.date.strftime("%A, %B %w, %Y") %>
-      </div>
-      <article>
-        <%= current_page.body %>
-      </article>
     </div>
     <footer>
       <%= partial "partials/footer" %>
