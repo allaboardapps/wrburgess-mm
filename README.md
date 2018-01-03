@@ -35,4 +35,5 @@
 
 ## Quality Control
 
-* https://realfavicongenerator.net/favicon_checker
+* FaviconGenerator/Validator, https://realfavicongenerator.net/favicon_checker
+* CastFeedValidator, http://castfeedvalidator.com

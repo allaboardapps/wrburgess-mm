@@ -29,7 +29,7 @@ xml.rss(
     xml.itunes :summary, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :subtitle, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :type, "episodic"
-    xml.itunes :image, href: image_url("cto_think_logo.png")
+    xml.itunes :image, href: image_path("cto_think_logo.png")
     xml.itunes :keywords, "technology, business, leadership, management, cto, executive"
     xml.itunes :owner do
       xml.itunes :name, "Don VanDemark and Randy Burgess"
