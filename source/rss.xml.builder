@@ -12,22 +12,25 @@ xml.rss(
   "version" => "2.0"
 ) do
   xml.channel do
+    xml.atom :linkhref, "https://www.ctothink.com/rss.xml"
     xml.title "CTO Think"
-    xml.description "A podcast about how CTOs think about technology and business problems"
-    xml.link "href" => "https://www.ctothink.com/feed.xml", "rel" => "self"
+    xml.description "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
+    xml.language "en-us"
     xml.updated blog.articles.last.date.to_time.iso8601
+    xml.pubDate blog.articles.first.date.to_time.iso8601
+    xml.lastBuildDate blog.articles.first.date.to_time.iso8601
+    xml.link "https://www.ctothink.com"
     xml.author do
       xml.name "Don VanDemark and Randy Burgess"
     end
-    xml.language "en-us"
     xml.copyright "Copyright 2017-2018 CTO Think. All Rights Reserved."
-    xml.lastBuildDate blog.articles.first.date.to_time.iso8601
-    xml.atom :linkhref, "https://www.ctothink.com/feed.xml"
     xml.itunes :author, "Don VanDemark and Randy Burgess"
     xml.itunes :subtitle, "CTO Think podcast subtitle"
-    xml.itunes :summary, "CTO Think podcast summary"
+    xml.itunes :summary, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
+    xml.itunes :subtitle, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :type, "episodic"
-    xml.itunes :image, href: image_url("cto_think_logo.jpg")
+    xml.itunes :image, href: image_url("cto_think_logo.png")
+    xml.itunes :keywords, "technology, business, leadership, management, cto, executive"
     xml.itunes :owner do
       xml.itunes :name, "Don VanDemark and Randy Burgess"
       xml.itunes :email, "advice@ctothink.com"
