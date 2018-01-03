@@ -1,6 +1,6 @@
 ---
 id: 2
-title: Episode 2 - Who should I hire?
+title: Episode 2 - Who should I hire to build an app?
 date: 2017/12/28 09:00:00AM
 audio_file_name: cto_think_episode_0002.mp3
 duration: '00:25:22'
@@ -13,4 +13,21 @@ block: no
 published: true
 ---
 
+#### Summary
+
 Randy was posed a question by a potential client: "I want to build an app. Who should I hire?" and he asks the same question to Don.
+
+#### Notes
+
+* Don talks about AspirEDU being in a refactoring phase
+* Don's gigs, AspirEDU Construction Specialties & Design were awarded as "100 Fastest Growing Companies by Alumni" by the University of Florida
+* Randy talks about clients starting to make bigger business decisions that are affecting technology
+* One client is looking towards a Nationwide launch
+* Another client has a money-making platform that they want to ramp up for growth
+* Randy and Don discuss the topic of "A business person wants to build an app. Who should I hire?"
+* Don and Randy both come to the conclusion "Start with design before hiring a coder"
+* Randy alludes to his working on a side-project, causing Don to shudder in fear (for Randy)
+
+#### Credits
+
+Show music is Dumpster Dive by Marc Walloch, licensed by PremiumBeat.com

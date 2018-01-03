@@ -13,4 +13,24 @@ block: no
 published: true
 ---
 
+#### Summary
+
 Don faced an issue at his startup job: When should you slow down forward progress on new features in order to spend time on festering technical issues?
+
+#### Notes
+
+* Randy discusses his explosion of side projects: An app for HOA board members, an open source project named [CaptionPoint](http://www.captionpoint.com), a marketing app for a service provider
+* Randy states that his two-week break is no longer viable
+* Don discusses the efforts needed to automate tasks for AspirEDU
+* Don throws out the topic "How do you go about making the decision to make the trade off of slowing down new development to tackle old code and inefficiencies"
+* Both Don and Randy agree this topic pertains to more-established firms rather than startups (the pre-optimization problem)
+
+#### Links
+
+* [CaptionPoint](http://www.captionpoint.com)
+* [AspirEDU](https://aspiredu.com)
+* [HOA Done](https://www.hoadone.com)
+
+#### Credits
+
+Show music is Dumpster Dive by Marc Walloch, licensed by PremiumBeat.com

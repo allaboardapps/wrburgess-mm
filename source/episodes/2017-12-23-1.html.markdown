@@ -19,7 +19,7 @@ Welcome to CTO Think, a podcast about how technology leaders think about busines
 
 #### Notes
 
-* Don is a University of Florida grad
+* Don is a University of Florida grad, Bachelors and MBA
 * Don is CTO of AspirEDU, educational analytics company
 * Don is Managing Member of Construction Specialties & Design, a commercial maintenance firm
 * Randy was a CTO for Horizon Cash Management
@@ -30,6 +30,20 @@ Welcome to CTO Think, a podcast about how technology leaders think about busines
 
 #### Links
 
-* [AspirEDU](https://aspireedu.com)
+* [AspirEDU](https://aspiredu.com)
 * [All Aboard Apps](https://www.allaboardapps.com)
 * [HOA Done](https://www.hoadone.com)
+
+#### Closing
+
+Thanks for listening to the CTO Think Podcast. If you liked what you heard, please share a link to the podcast with your friends.  
+
+Show music is Dumpster Dive by Marc Walloch, licensed by PremiumBeat.com  
+
+Shownotes and previous episodes can be found on our website at ctothink.com  
+
+For questions, comments, or things you'd like to hear on future shows, please email us at hosts@ctothink.com  
+
+For notifications of future episodes, please sign up to the CTO Think newsletter on ctothink.com  
+
+We'll keep talking next week!
