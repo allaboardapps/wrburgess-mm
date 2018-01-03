@@ -56,6 +56,9 @@ xml.rss(
           xml.updated article.date.to_time.iso8601
           xml.itunes :duration, text: article.data.duration
           xml.itunes :episodeType, "full"
+          xml.summary do
+            xml.cdata! article.data.summary
+          end
           xml.description do
             xml.cdata! article.body
           end
