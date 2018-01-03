@@ -4,12 +4,24 @@
     font-size: 1.7em;
   }
 
-  .pub-date, .duration, .file-size {
+  p {
+    margin-left: 10px;
+  }
+
+  .pub-date, .duration, .file-size, .download {
     margin-bottom: 20px;
+    margin-left: 10px;
   }
 
   .label {
     font-weight: bold;
+  }
+
+  ul {
+
+    li {
+      margin-bottom: 5px;
+    }
   }
 
   article {

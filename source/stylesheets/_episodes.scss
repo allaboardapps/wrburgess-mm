@@ -17,20 +17,30 @@
 
     p {
       margin-top: 0;
+      margin-left: 10px;
     }
 
     .pub-date, .duration, .file-size {
       margin-bottom: 20px;
+      margin-left: 10px;
+    }
+
+    ul {
+
+      li {
+        margin-bottom: 5px;
+      }
     }
 
     ul.links {
-      margin: 10px 0 10px 0;
+      margin: 10px 0 10px 10px;
       padding: 0;
 
       li {
         display: inline-block;
         list-item-style: none;
-        padding-right: 10px;
+        margin-right: 10px;
+        margin-bottom: 0;
 
         a.listen, a.webpage {
           display: block;

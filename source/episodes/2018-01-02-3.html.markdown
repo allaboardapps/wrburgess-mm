@@ -19,7 +19,7 @@ Don faced an issue at his startup job: When should you slow down forward progres
 
 #### Notes
 
-* Randy discusses his explosion of side projects: An app for HOA board members, an open source project named [CaptionPoint](http://www.captionpoint.com), a marketing app for a service provider
+* Randy discusses his explosion of three side projects: An app for HOA board members, an open source project named CaptionPoint, and a marketing app for a service provider
 * Randy states that his two-week break is no longer viable
 * Don discusses the efforts needed to automate tasks for AspirEDU
 * Don throws out the topic "How do you go about making the decision to make the trade off of slowing down new development to tackle old code and inefficiencies"
