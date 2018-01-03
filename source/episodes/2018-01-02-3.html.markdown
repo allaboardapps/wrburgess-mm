@@ -4,7 +4,7 @@ title: Episode 3 - When best to work on tech debt?
 date: 2018/01/02
 audio_file_name: cto_think_episode_0003.mp3
 duration: 00:25:33
-file_length: 6421543
+file_size_bytes: 30700000
 file_type: audio/mpeg
 explicit: no
 block: no

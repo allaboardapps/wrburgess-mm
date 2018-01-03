@@ -5,7 +5,7 @@
     <h3
       class="<%= active_class %>"
       data-id="<%= article.data.id %>"
-      data-file-src="<%= podcast_file_url(article.data.audio_file_name) %>">
+      data-file-src="<%= cdn_file_url(article.data.audio_file_name) %>">
       <%= article.title %>
     </h3>
     <div
@@ -23,7 +23,7 @@
           </a>
         </li>
         <li>
-          <a href="<%= podcast_file_url(article.data.audio_file_name) %>" class="webpage">
+          <a href="<%= cdn_file_url(article.data.audio_file_name) %>" class="webpage">
             <%= image_tag("download_icon.svg", width: "20", height: "20", alt: "Download Icon", title: "Download the Episode") %>
             Download
           </a>

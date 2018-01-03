@@ -3,6 +3,14 @@ Time.zone = "America/New_York"
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+# Global Variables
+set :site_description, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
+set :site_name, "CTO Think"
+set :site_email, "hosts@ctothink.com"
+set :site_url, "https://www.ctothink.com"
+set :cdn_url, "https://s3.amazonaws.com/cto-think-podcast-assets"
+set :site_copyright, "© 2017-2018 CTO Think. All Rights Reserved."
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
@@ -49,7 +57,7 @@ configure :build do
 end
 
 activate :blog do |blog|
-  blog.sources = "posts/{year}-{month}-{day}-{title}.html"
+  blog.sources = "episodes/{year}-{month}-{day}-{id}.html"
   blog.permalink = "episodes/{year}-{month}-{day}-{id}.html"
   blog.layout = "episodes"
 end
@@ -68,12 +76,12 @@ end
 set(:port, 3000)
 
 helpers do
-  def podcast_file_url(file_name)
-    "https://s3.amazonaws.com/cto-think-podcast-assets/#{file_name}"
+  def cdn_file_url(file_name)
+    "#{config[:cdn_url]}/#{file_name}"
   end
 
   def image_url(file_name)
-    "https://www.ctothink.com/images/#{file_name}"
+    "#{config[:site_url]}/images/#{file_name}"
   end
 end
 
