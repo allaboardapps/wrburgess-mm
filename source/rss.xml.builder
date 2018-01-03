@@ -25,10 +25,15 @@ xml.rss(
     end
     xml.copyright "Copyright 2017-2018 CTO Think. All Rights Reserved."
     xml.itunes :author, "CTO Think"
+    xml.itunes :email, "hosts@ctothink.com"
+    xml.googleplay :author, "CTO Think"
+    xml.googleplay :email, "hosts@ctothink.com"
     xml.itunes :summary, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
+    xml.googleplay :description, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :subtitle, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :type, "episodic"
     xml.itunes :image, href: "https://s3.amazonaws.com/cto-think-podcast-assets/cto-think-logo-itunes.jpg"
+    xml.googleplay :image, href: "https://s3.amazonaws.com/cto-think-podcast-assets/cto-think-logo-itunes.jpg"
     xml.itunes :keywords, "technology, business, leadership, management, cto, executive"
     xml.itunes :owner do
       xml.itunes :name, "CTO Think"
@@ -40,9 +45,7 @@ xml.rss(
     xml.itunes :category, text: "Business" do
       xml.itunes :category, text: "Management & Marketing"
     end
-    xml.itunes :category, text: "Education" do
-      xml.itunes :category, text: "Training"
-    end
+    xml.googleplay :category, text: "Technology"
     xml.itunes :explicit, "no"
 
     blog.articles.each do |article|
@@ -54,22 +57,36 @@ xml.rss(
           xml.published article.date.to_time.iso8601
           xml.pubDate article.date.to_time.iso8601
           xml.updated article.date.to_time.iso8601
+          xml.itunes :block, article.data.block
+          xml.googleplay :block, article.data.block
+          xml.itunes :order, article.data.id
+          xml.itunes :author, "CTO Think"
+          xml.itunes :email, "hosts@ctothink.com"
+          xml.googleplay :author, "CTO Think"
+          xml.googleplay :email, "hosts@ctothink.com"
           xml.itunes :image, href: "https://s3.amazonaws.com/cto-think-podcast-assets/cto-think-logo-itunes.jpg"
+          xml.googleplay :image, href: "https://s3.amazonaws.com/cto-think-podcast-assets/cto-think-logo-itunes.jpg"
           xml.itunes :duration, text: article.data.duration
           xml.itunes :episodeType, "full"
           xml.itunes :episode, article.data.id
-          xml.itunes :explicit, "no"
+          xml.itunes :explicit, article.data.explicit
+          xml.googleplay :explicit, article.data.explicit
           xml.itunes :keywords, article.data.keywords
-          xml.itunes :subtitle, article.data.summary
+          xml.googleplay :description do
+            xml.cdata! article.body
+          end
+          xml.itunes :subtitle do
+            xml.cdata! article.body
+          end
           xml.itunes :summary do
-            xml.cdata! article.data.summary
+            xml.cdata! article.body
           end
           xml.description do
             xml.cdata! article.body
           end
-          xml.enclosure url: podcast_file_url(article.data.audio_file_name), length: "37934213", type: "audio/mp3"
-          xml.link podcast_file_url(article.data.audio_file_name)
-          xml.guid({ isPermaLink: false }, SecureRandom.uuid)
+          xml.enclosure url: podcast_file_url(article.data.audio_file_name), length: article.data.file_length, type: article.data.file_type
+          xml.link "https://www.ctothink.com#{article.url}"
+          xml.guid({ isPermaLink: false }, podcast_file_url(article.data.audio_file_name))
         end
       end
     end

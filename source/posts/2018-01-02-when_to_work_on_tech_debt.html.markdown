@@ -4,6 +4,10 @@ title: Episode 3 - When best to work on tech debt?
 date: 2018/01/02
 audio_file_name: cto_think_episode_0003.mp3
 duration: 00:25:33
+file_length: 6421543
+file_type: audio/mpeg
+explicit: no
+block: no
 published: true
 summary: When should you slow down and work on tech debt?
 keywords: technology, business, technical debt, prioritizing, project management, product management

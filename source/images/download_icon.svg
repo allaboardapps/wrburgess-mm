@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="58px" viewBox="0 0 59 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>406 - Download Album (Action, File, Add, Delete)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-600.000000, -2149.000000)" fill="#000000">
+            <g id="406---Download-Album-(Action,-File,-Add,-Delete)" transform="translate(600.000000, 2149.000000)">
+                <path d="M57,56 L37,56 L37,36 L46,36 L46,48.586 L41.707,44.293 L40.293,45.707 L47,52.414 L53.707,45.707 L52.293,44.293 L48,48.586 L48,36 L57,36 L57,56 Z M35,58 L59,58 L59,34 L35,34 L35,58 Z" id="Fill-552"></path>
+                <path d="M29,31 C29,27.691 31.916,25 35.5,25 C37.246,25 38.831,25.643 40,26.681 L40,17.17 L23,19.854 L23,37.102 C23,37.115 22.993,37.126 22.992,37.14 C22.911,40.383 20.033,43 16.5,43 C12.916,43 10,40.309 10,37 C10,33.691 12.916,31 16.5,31 C18.246,31 19.831,31.643 21,32.681 L21,19 L21,16.286 L21,13 C21,12.508 21.358,12.089 21.844,12.013 L40.844,9.013 C41.134,8.966 41.427,9.05 41.649,9.24 C41.872,9.43 42,9.708 42,10 L42,11 L42,16 L42,31 L58,31 L58,1.565 C58,0.701 57.299,0 56.435,0 L1.565,0 C0.701,0 0,0.701 0,1.565 L0,47.435 C0,48.299 0.701,49 1.565,49 L32,49 L32,36.048 C30.199,34.98 29,33.119 29,31" id="Fill-553"></path>
+            </g>
+        </g>
+    </g>
+</svg>

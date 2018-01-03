@@ -1,3 +1,5 @@
+require "tzinfo"
+Time.zone = "America/New_York"
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
@@ -47,8 +49,9 @@ configure :build do
 end
 
 activate :blog do |blog|
-  blog.layout = "layout"
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
+  blog.permalink = "episodes/{year}-{month}-{day}-{id}.html"
+  blog.layout = "episodes"
 end
 
 activate :asset_hash

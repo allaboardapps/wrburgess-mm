@@ -36,5 +36,18 @@
 ## Quality Control
 
 * FaviconGenerator/Validator, https://realfavicongenerator.net/favicon_checker
-* CastFeedValidator, http://castfeedvalidator.com
-* Apple Podcasts Validator/Submitter, https://podcastsconnect.apple.com/my-podcasts/new-feed
+
+## Feed Submissions
+
+* CastFeedValidator: http://castfeedvalidator.com
+* Apple Podcasts: https://podcastsconnect.apple.com/my-podcasts/new-feed
+* Stitcher: http://www.stitcher.com/content-providers or https://www.stitcher.com/faqs
+* Google Play: https://play.google.com/music/podcasts/portal/u/0/start#
+* Google Play Feed: https://support.google.com/googleplay/podcasts/answer/6260341#series
+* Pocketcasts: http://www.pocketcasts.com/submit
+* Overcast: https://twitter.com/overcastfm/status/489451064563740672?lang=en
+* Tunein (Amazon): https://help.tunein.com/customer/portal/emails/new?ticket[labels_new]=podcast&t=641867
+* Blubrry: https://publish.blubrry.com/
+* ACast: https://www.acast.com/podcasters
+* Podcast Places: https://podcastplaces.com/podcast-apps-and-directories/
+

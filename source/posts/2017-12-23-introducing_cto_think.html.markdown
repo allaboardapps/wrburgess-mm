@@ -4,6 +4,10 @@ title: Episode 1 - Introducing CTO Think
 date: 2017/12/23
 audio_file_name: cto_think_episode_0001.mp3
 duration: 00:25:11
+file_length: 6421543
+file_type: audio/mpeg
+explicit: no
+block: no
 published: true
 summary: Don and Randy introduce listeners to the podcast and their individual backgrounds
 keywords: technology, business, introduction, CTO, Don VanDemark, Randy Burgess
