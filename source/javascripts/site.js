@@ -1,27 +1,27 @@
 //= require jquery
 //= require mediaelement
 
-$('.posts h3').click(function(evnt) {
-  // deactivate all post list items and post sections
+$('.episodes h3').click(function(evnt) {
+  // deactivate all post episode items and episode sections
   $('h3').removeClass('active');
-  $('.post-body').removeClass('active');
+  $('.episode-body').removeClass('active');
 
   // get elements and data points
   const $mediaPlayerTitle = $('.media-player h3');
   const $mediaPlayerAudio = $('.media-player audio');
   const $h3 = $(evnt.target);
-  const postId = $h3.data('id');
-  const postFileUrl = $h3.data('file-src');
-  const postTitle = $h3.text();
-  const $post = $('.post-body[data-id="' + postId + '"]');
+  const episodeId = $h3.data('id');
+  const episodeFileUrl = $h3.data('file-src');
+  const episodeTitle = $h3.text();
+  const $episode = $('.episode-body[data-id="' + episodeId + '"]');
 
-  // activate post list item and post section
+  // activate episode list item and episode section
   $h3.addClass('active');
-  $post.addClass('active');
+  $episode.addClass('active');
 
   // update media player title and file source
-  $mediaPlayerTitle.text(postTitle)
-  $mediaPlayerAudio.attr('src', postFileUrl)
+  $mediaPlayerTitle.text(episodeTitle)
+  $mediaPlayerAudio.attr('src', episodeFileUrl)
 });
 
 $('audio').mediaelementplayer({

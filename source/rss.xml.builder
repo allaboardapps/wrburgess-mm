@@ -15,7 +15,7 @@ xml.rss(
     xml.title config[:site_name]
     xml.description config[:site_description]
     xml.language "en-us"
-    xml.updated blog.articles.last.date.to_time.iso8601
+    xml.updated blog.articles.first.date.to_time.iso8601
     xml.pubDate blog.articles.first.date.to_time.iso8601
     xml.lastBuildDate blog.articles.first.date.to_time.iso8601
     xml.link config[:site_url]

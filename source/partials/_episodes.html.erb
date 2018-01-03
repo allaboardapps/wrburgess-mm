@@ -1,41 +1,47 @@
 <h2>Episodes</h2>
-<div class="posts">
-  <% blog.articles.each_with_index do |article, index| %>
-    <% active_class = index == 0 ? "active" : nil %>
-    <h3
-      class="<%= active_class %>"
-      data-id="<%= article.data.id %>"
-      data-file-src="<%= cdn_file_url(article.data.audio_file_name) %>">
-      <%= article.title %>
-    </h3>
-    <div
-      class="post-body <%= active_class %>"
-      data-id="<%= article.data.id %>"
-    >
-      <div class="pub-date">
-        <%= article.date.strftime("%A, %B %w, %Y") %>
-      </div>
-      <ul>
-        <li>
-          <a href="#listen" class="listen">
-            <%= image_tag("headphones_icon.svg", width: "20", height: "20", alt: "Headphones Icon", title: "Listen to the podcast") %>
-            Listen
-          </a>
-        </li>
-        <li>
-          <a href="<%= cdn_file_url(article.data.audio_file_name) %>" class="webpage">
-            <%= image_tag("download_icon.svg", width: "20", height: "20", alt: "Download Icon", title: "Download the Episode") %>
-            Download
-          </a>
-        </li>
-        <li>
-          <a href="<%= article.url %>" class="webpage">
-            <%= image_tag("webpage_icon.svg", width: "20", height: "20", alt: "Website Icon", title: "View the Episode Page") %>
-            Episode Page
-          </a>
-        </li>
-      </ul>
+<% blog.articles.each_with_index do |article, index| %>
+  <% active_class = index == 0 ? "active" : nil %>
+  <h3
+    class="<%= active_class %>"
+    data-id="<%= article.data.id %>"
+    data-file-src="<%= cdn_file_url(article.data.audio_file_name) %>">
+    <%= article.title %>
+  </h3>
+  <div
+    class="episode-body <%= active_class %>"
+    data-id="<%= article.data.id %>"
+  >
+    <div class="pub-date">
+      <span class="label">Published:</span> <%= article.date.strftime("%A, %B %w, %Y") %>
+    </div>
+    <div class="duration">
+      <span class="label">Duration:</span> <%= article.data.duration %>
+    </div>
+    <div class="file-size">
+      <span class="label">File Size:</span> <%= article.data.file_size_bytes/1000000 %> MB
+    </div>
+    <ul class="links">
+      <li>
+        <a href="#listen" class="listen">
+          <%= image_tag("headphones_icon.svg", width: "20", height: "20", alt: "Headphones Icon", title: "Listen to the podcast") %>
+          Listen
+        </a>
+      </li>
+      <li>
+        <a href="<%= cdn_file_url(article.data.audio_file_name) %>" class="webpage" download>
+          <%= image_tag("download_icon.svg", width: "20", height: "20", alt: "Download Icon", title: "Download the Episode") %>
+          Download
+        </a>
+      </li>
+      <li>
+        <a href="<%= article.url %>" class="webpage">
+          <%= image_tag("webpage_icon.svg", width: "20", height: "20", alt: "Website Icon", title: "View the Episode Page") %>
+          Episode Page
+        </a>
+      </li>
+    </ul>
+    <div class="episode-content">
       <%= article.body %>
     </div>
-  <% end %>
-</div>
+  </div>
+<% end %>
