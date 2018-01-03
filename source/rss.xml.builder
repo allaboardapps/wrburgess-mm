@@ -21,18 +21,18 @@ xml.rss(
     xml.lastBuildDate blog.articles.first.date.to_time.iso8601
     xml.link "https://www.ctothink.com"
     xml.author do
-      xml.name "Don VanDemark and Randy Burgess"
+      xml.name "CTO Think"
     end
     xml.copyright "Copyright 2017-2018 CTO Think. All Rights Reserved."
-    xml.itunes :author, "Don VanDemark and Randy Burgess"
+    xml.itunes :author, "CTO Think"
     xml.itunes :summary, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :subtitle, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
     xml.itunes :type, "episodic"
     xml.itunes :image, href: "https://s3.amazonaws.com/cto-think-podcast-assets/cto-think-logo-itunes.jpg"
     xml.itunes :keywords, "technology, business, leadership, management, cto, executive"
     xml.itunes :owner do
-      xml.itunes :name, "Don VanDemark and Randy Burgess"
-      xml.itunes :email, "advice@ctothink.com"
+      xml.itunes :name, "CTO Think"
+      xml.itunes :email, "hosts@ctothink.com"
     end
     xml.itunes :category, text: "Technology" do
       xml.itunes :category, text: "Tech News"
@@ -49,7 +49,7 @@ xml.rss(
       if article.data.published
         xml.item do
           xml.title article.title
-          xml.author "Don VanDemark and Randy Burgess"
+          xml.author "CTO Think"
           xml.id article.data.id
           xml.published article.date.to_time.iso8601
           xml.pubDate article.date.to_time.iso8601

@@ -37,3 +37,4 @@
 
 * FaviconGenerator/Validator, https://realfavicongenerator.net/favicon_checker
 * CastFeedValidator, http://castfeedvalidator.com
+* Apple Podcasts Validator/Submitter, https://podcastsconnect.apple.com/my-podcasts/new-feed
