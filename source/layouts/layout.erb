@@ -10,7 +10,7 @@
 
       gtag('config', 'UA-111873195-1');
     </script>
-    <title><%= current_page.data.title || "CTO Think" %></title>
+    <title><%= current_page.data.title ? "#{current_page.data.title} | CTO Think" : "CTO Think" %></title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="A pragmatic podcast about leadership, product development, and technology decisions with two recovering Chief Technology Officers.">
