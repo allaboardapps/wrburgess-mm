@@ -1,6 +1,6 @@
 require "securerandom"
-
-xml.feed(
+xml.instruct!
+xml.rss(
   "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",
   "xmlns:dc" => "http://purl.org/dc/elements/1.1/",
   "xmlns:sy" => "http://purl.org/rss/1.0/modules/syndication/",
@@ -8,9 +8,8 @@ xml.feed(
   "xmlns:rdf" => "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
   "xmlns:content" => "http://purl.org/rss/1.0/modules/content/",
   "xmlns:googleplay" => "http://www.google.com/schemas/play-podcasts/1.0",
-  "version" => "2.0",
   "xmlns:atom" => "http://www.w3.org/2005/Atom",
-  "encoding" => "UTF-8"
+  "version" => "2.0"
 ) do
   xml.channel do
     xml.title "CTO Think"
