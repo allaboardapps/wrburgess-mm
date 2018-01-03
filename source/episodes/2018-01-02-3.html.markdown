@@ -3,7 +3,7 @@ id: 3
 title: Episode 3 - When best to work on tech debt?
 date: 2018/01/02 09:00:00AM
 audio_file_name: cto_think_episode_0003.mp3
-duration: '00:25:33'
+duration: '00:28:10'
 file_size_bytes: 30700000
 file_type: audio/mpeg
 summary: When should you slow down and work on tech debt?

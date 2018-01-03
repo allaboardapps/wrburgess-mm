@@ -3,7 +3,7 @@ id: 1
 title: Episode 1 - Introducing CTO Think
 date: 2017/12/23 09:00:00AM
 audio_file_name: cto_think_episode_0001.mp3
-duration: '00:04:52'
+duration: '00:04:51'
 file_size_bytes: 5700000
 file_type: audio/mpeg
 summary: Don and Randy introduce listeners to the podcast and their individual backgrounds
