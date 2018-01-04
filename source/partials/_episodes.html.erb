@@ -1,14 +1,12 @@
 <h2>Episodes</h2>
 <% blog.articles.each_with_index do |article, index| %>
-  <% active_class = index == 0 ? "active" : nil %>
   <h3
-    class="<%= active_class %>"
     data-id="<%= article.data.id %>"
     data-file-src="<%= cdn_file_url(article.data.audio_file_name) %>">
     <%= article.title %>
   </h3>
   <div
-    class="episode-body <%= active_class %>"
+    class="episode-body"
     data-id="<%= article.data.id %>"
   >
     <div class="pub-date">

@@ -3,6 +3,11 @@
   h3 {
     background-color: $white;
     padding-left: 10px;
+    text-decoration: underline;
+
+    &:hover {
+      cursor: pointer;
+    }
 
     &.active {
       background-color: $grey;
