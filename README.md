@@ -52,3 +52,13 @@
 * ACast: https://www.acast.com/podcasters
 * Podcast Places: https://podcastplaces.com/podcast-apps-and-directories/
 
+## Submissions
+
+* Apple Podcast (APPROVED)
+* Blubrry Directory (SUBMITTED)
+* Pocketcasts (SUBMITTED)
+* ACast (SUBMITTED) https://acast.com/ctothink
+* Google Play (PENDING)
+* Stitcher (PENDING)
+* Tunein (PENDING)
+
