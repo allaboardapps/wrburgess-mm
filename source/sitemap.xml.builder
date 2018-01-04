@@ -6,7 +6,7 @@ xml.urlset(
 ) do
   xml.url do
     xml.loc config[:site_url]
-    xml.lastmod blog.articles.first.date
+    xml.lastmod blog.articles.first.date.strftime("%Y-%m-%d")
     xml.changefreq "weekly"
     xml.priority 1.0
   end
@@ -14,7 +14,7 @@ xml.urlset(
     xml.url do
       if article.data.published
         xml.loc "#{config[:site_url]}#{article.url}"
-        xml.lastmod article.date
+        xml.lastmod article.date.strftime("%Y-%m-%d")
         xml.changefreq "monthly"
         xml.priority 0.9
       end
