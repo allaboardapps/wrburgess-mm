@@ -6,9 +6,17 @@ xml.urlset(
 ) do
   xml.url do
     xml.loc config[:site_url]
-    blog.articles.each do |article|
+    xml.lastmod blog.articles.first.date
+    xml.changefreq "weekly"
+    xml.priority 1.0
+  end
+  blog.articles.each do |article|
+    xml.url do
       if article.data.published
         xml.loc "#{config[:site_url]}#{article.url}"
+        xml.lastmod article.date
+        xml.changefreq "monthly"
+        xml.priority 0.9
       end
     end
   end
