@@ -1,5 +1,6 @@
 require "tzinfo"
 Time.zone = "America/New_York"
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
@@ -10,6 +11,7 @@ set :site_email, "hosts@ctothink.com"
 set :site_url, "https://www.ctothink.com"
 set :cdn_url, "https://s3.amazonaws.com/cto-think-podcast-assets"
 set :site_copyright, "© 2017-2018 CTO Think. All Rights Reserved."
+set :ga_id, "UA-111873195-1"
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
@@ -22,7 +24,6 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/feed.xml", layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
