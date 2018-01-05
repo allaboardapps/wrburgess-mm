@@ -1,0 +1,50 @@
+---
+id: 4
+title: Episode 4 - What should a CTO do about the Meltdown and Spectre exploits?
+date: 2018/01/05 06:00:00PM
+audio_file_name: cto_think_episode_0004.mp3
+duration: '00:40:00'
+file_size_bytes: 1
+file_type: audio/mpeg
+summary: What should a technical manager do about the Meltdown and Spectre exploits?
+keywords: meltdown, spectre, exploits, vulnerabilities, CTO, manager, prevention, Intel, Mac, iOS, Microsoft
+explicit: no
+block: no
+published: false
+---
+
+#### Summary
+
+Randy and Don discuss an item ripped from the headlines: What should a technical manager do about the recent Meltdown and Spectre exploits?
+
+#### Notes
+
+* Randy wants a Meltdown and Spectre bobble-head. Don promises to find him one.
+
+#### Links
+
+##### Online News
+
+* Official Website: [https://meltdownattack.com](https://meltdownattack.com)
+* Amazon Web Services: [https://aws.amazon.com/security/security-bulletins/AWS-2018-013/](https://aws.amazon.com/security/security-bulletins/AWS-2018-013/)
+* Intel: [https://newsroom.intel.com/news/intel-responds-to-security-research-findings/](https://newsroom.intel.com/news/intel-responds-to-security-research-findings/)
+* Ars Technica: [https://arstechnica.com/gadgets/2018/01/whats-behind-the-intel-design-flaw-forcing-numerous-patches/](https://arstechnica.com/gadgets/2018/01/whats-behind-the-intel-design-flaw-forcing-numerous-patches/)
+* Apple: [https://support.apple.com/en-us/HT208394](https://support.apple.com/en-us/HT208394)
+
+##### Security Folks
+
+##### Security Newsletters
+
+#### Closing
+
+Thanks for listening to the [CTO Think](https://www.ctothink.com) Podcast. If you liked what you heard, please share a link to the podcast with your friends.  
+
+Show music is Dumpster Dive by [Marc Walloch](http://marcwalloch.com/), licensed by [PremiumBeat.com](https://www.premiumbeat.com)  
+
+Shownotes and previous episodes can be found on our website at [www.ctothink.com](https://www.ctothink.com/)  
+
+For questions, comments, or things you'd like to hear on future shows, please email us at [hosts@ctothink.com](mailto:hosts@ctothink.com)  
+
+For notifications of future episodes, please sign up to the CTO Think newsletter on [www.ctothink.com](https://www.ctothink.com/)  
+
+We'll keep talking next week!
