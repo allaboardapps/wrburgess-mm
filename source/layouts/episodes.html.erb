@@ -5,6 +5,9 @@
     </header>
     <div class="content episode">
       <h1><%= current_page.title %></h1>
+      <div class="subscribe">
+        <%= partial "partials/subscribe" %>
+      </div>
       <h3>Listen</h3>
       <audio src="<%= cdn_file_url(current_page.data.audio_file_name) %>" preload="auto" width="100%"></audio>
       <h3>Details</h3>
