@@ -12,12 +12,10 @@ xml.urlset(
   end
   blog.articles.each do |article|
     xml.url do
-      if article.data.published
-        xml.loc "#{config[:site_url]}#{article.url}"
-        xml.lastmod article.date.strftime("%Y-%m-%d")
-        xml.changefreq "monthly"
-        xml.priority 0.9
-      end
+      xml.loc "#{config[:site_url]}#{article.url}"
+      xml.lastmod article.date.strftime("%Y-%m-%d")
+      xml.changefreq "monthly"
+      xml.priority 0.9
     end
   end
 end

@@ -77,13 +77,13 @@ xml.rss(
           xml.googleplay :explicit, article.data.explicit
           xml.itunes :keywords, article.data.keywords
           xml.googleplay :description do
-            xml.cdata! article.body
+            xml.cdata! article.summary
           end
           xml.itunes :subtitle do
-            xml.cdata! article.body
+            xml.cdata! article.summary
           end
           xml.itunes :summary do
-            xml.cdata! article.body
+            xml.cdata! article.summary
           end
           xml.description do
             xml.cdata! article.body

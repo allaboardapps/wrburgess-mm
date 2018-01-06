@@ -6,16 +6,15 @@ audio_file_name: cto_think_episode_0004.mp3
 duration: '00:40:00'
 file_size_bytes: 1
 file_type: audio/mpeg
-summary: What should a technical manager do about the Meltdown and Spectre exploits?
 keywords: meltdown, spectre, exploits, vulnerabilities, CTO, manager, prevention, Intel, Mac, iOS, Microsoft
 explicit: no
 block: no
 published: false
 ---
 
-#### Summary
-
 Randy and Don discuss an item ripped from the headlines: What should a technical manager do about the recent Meltdown and Spectre exploits?
+
+READMORE
 
 #### Notes
 
@@ -33,7 +32,21 @@ Randy and Don discuss an item ripped from the headlines: What should a technical
 
 ##### Security Folks
 
-##### Security Newsletters
+* [@troyhunt](https://twitter.com/troyhunt)
+
+##### Security Alerts
+
+* [Ruby Security Google Group](https://groups.google.com/forum/#!forum/ruby-security-ann)
+* [Rails Security Google Group](https://groups.google.com/forum/?fromgroups#!forum/rubyonrails-security)
+* [Snyk](https://github.com/marketplace/snyk) -- *Subscription may be required*
+* [Gemnasium](https://github.com/marketplace/gemnasium) -- *Subscription may be required*
+* [auditjs](https://www.npmjs.com/package/auditjs)
+
+##### Other Links
+
+* [CVE](https://cve.mitre.org/)
+* [National Vulnerability Database](https://nvd.nist.gov/)
+* [CVE Details](https://www.cvedetails.com)
 
 #### Closing
 

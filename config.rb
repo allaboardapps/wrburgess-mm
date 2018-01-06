@@ -61,6 +61,7 @@ activate :blog do |blog|
   blog.sources = "episodes/{year}-{month}-{day}-{id}.html"
   blog.permalink = "episodes/{year}-{month}-{day}-{id}.html"
   blog.layout = "episodes"
+  blog.summary_separator = /READMORE/
 end
 
 activate :asset_hash
