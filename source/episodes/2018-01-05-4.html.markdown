@@ -12,19 +12,31 @@ block: no
 published: false
 ---
 
-Randy and Don discuss an item ripped from the headlines: What should a technical manager do about the recent Meltdown and Spectre exploits?
+Randy and Don discuss an item ripped from the headlines: What should a technical manager do about the recent Meltdown and Spectre exploits? They move into the CTO modes of research, understanding, translation, preparation, upgrading, monitoring, and, most of all, not freaking out. Randy requests a bobblehead or plush toy of the Spectre logo.
 
 READMORE
 
 #### Notes
 
-* Randy wants a Meltdown and Spectre bobble-head. Don promises to find him one.
+* Ripped from the headlines: Part of Randy's week was dealing with Meltdown and Spectre vulnerabilities
+* What is a CTO or technical manager supposed to do when big-name vulnerabilities hit the press?
+* Don says to "try not to be the smartest person you know" or you're doomed to have all problems brought to you.
+* Don says to start with research and Randy concurs.
+* Randy jumps in with the good and bad sources for information.
+* Don mentions that a CTO must be able explain the technical details at a business level to stakeholders.
+* Randy mentions that these problems were being worked on months ago.
+* If you have a laptop on your desk with Windows, you've outsourced a level of security to a big provider.
+* Don proclaims that it's ok to admit you don't have all the information right this minute.
+* Randy adds that you should tell people to avoid new websites, downloads, and updates on your own, until later.
+* They discuss that there are security consultants that can take a big load of work off firms, for a price.
+* Randy throws out his tactic for reducing anxiety: A crib sheet of all technologies (and contact numbers) used by the firm in the event of issues.
+* Randy wants a Meltdown and Spectre bobblehead. Don promises to get him one.
 
 #### Links
 
 ##### Online News
 
-* Official Website: [https://meltdownattack.com](https://meltdownattack.com)
+* Official Meltdown and Spectre Websites: [https://meltdownattack.com](https://meltdownattack.com)
 * Amazon Web Services: [https://aws.amazon.com/security/security-bulletins/AWS-2018-013/](https://aws.amazon.com/security/security-bulletins/AWS-2018-013/)
 * Intel: [https://newsroom.intel.com/news/intel-responds-to-security-research-findings/](https://newsroom.intel.com/news/intel-responds-to-security-research-findings/)
 * Ars Technica: [https://arstechnica.com/gadgets/2018/01/whats-behind-the-intel-design-flaw-forcing-numerous-patches/](https://arstechnica.com/gadgets/2018/01/whats-behind-the-intel-design-flaw-forcing-numerous-patches/)
