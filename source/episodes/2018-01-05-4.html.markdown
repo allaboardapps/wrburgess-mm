@@ -63,6 +63,7 @@ READMORE
 * [National Vulnerability Database](https://nvd.nist.gov/)
 * [CVE Details](https://www.cvedetails.com)
 * [Focal Point](https://focal-point.com/) - company that provides security audits for Don
+* [Google Chrome: Security on Chrome](https://support.google.com/chrome/answer/7623121)
 
 #### Closing
 
