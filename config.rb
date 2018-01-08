@@ -7,6 +7,7 @@ Time.zone = "America/New_York"
 # Global Variables
 set :site_description, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
 set :site_name, "CTO Think"
+set :acronym, "CTOT"
 set :site_email, "hosts@ctothink.com"
 set :site_url, "https://www.ctothink.com"
 set :cdn_url, "https://s3.amazonaws.com/cto-think-podcast-assets"
