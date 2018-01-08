@@ -1,6 +1,6 @@
 ---
 id: 4
-title: Episode 4 - What should a CTO do about the Meltdown and Spectre exploits?
+title: Episode 4 - What should a manager do about the Meltdown and Spectre exploits?
 date: 2018/01/05 06:00:00PM
 audio_file_name: cto_think_episode_0004.mp3
 duration: '00:42:46'
