@@ -3,8 +3,8 @@ id: 4
 title: Episode 4 - What should a CTO do about the Meltdown and Spectre exploits?
 date: 2018/01/05 06:00:00PM
 audio_file_name: cto_think_episode_0004.mp3
-duration: '00:40:00'
-file_size_bytes: 1
+duration: '00:42:46'
+file_size_bytes: 78300000
 file_type: audio/mpeg
 keywords: meltdown, spectre, exploits, vulnerabilities, CTO, manager, prevention, Intel, Mac, iOS, Microsoft
 explicit: no
