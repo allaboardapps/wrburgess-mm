@@ -18,18 +18,18 @@ READMORE
 
 #### Notes
 
-* Ripped from the headlines: Part of Randy's week was dealing with Meltdown and Spectre vulnerabilities
+* Ripped from the headlines: Part of Randy and Don's week was dealing with Meltdown and Spectre vulnerabilities.
 * What is a CTO or technical manager supposed to do when big-name vulnerabilities hit the press?
-* Don says to "try not to be the smartest person you know" or you're doomed to have all problems brought to you.
-* Don says to start with research and Randy concurs.
-* Randy jumps in with the good and bad sources for information.
-* Don mentions that a CTO must be able explain the technical details at a business level to stakeholders.
+* Try not to be the smartest person you know or you're doomed to have all problems brought to you.
+* Start with research!
+* Good and bad sources for information.
+* A CTO must be able explain the technical details at a business level to stakeholders.
 * Randy mentions that these problems were being worked on months ago.
 * If you have a laptop on your desk with Windows, you've outsourced a level of security to a big provider.
-* Don proclaims that it's ok to admit you don't have all the information right this minute.
-* Randy adds that you should tell people to avoid new websites, downloads, and updates on your own, until later.
-* They discuss that there are security consultants that can take a big load of work off firms, for a price.
-* Randy throws out his tactic for reducing anxiety: A crib sheet of all technologies (and contact numbers) used by the firm in the event of issues.
+* It's ok to admit you don't have all the information right this minute.
+* You should tell people to avoid new websites, downloads, and updates on your own, until later.
+* There are security consultants that can take a big load of work off firms, for a price.
+* A tactic for reducing anxiety: A crib sheet of all technologies (and contact numbers) used by the firm in the event of issues.
 * Randy wants a Meltdown and Spectre bobblehead. Don promises to get him one.
 
 #### Links
