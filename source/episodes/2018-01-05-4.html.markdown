@@ -9,7 +9,7 @@ file_type: audio/mpeg
 keywords: meltdown, spectre, exploits, vulnerabilities, CTO, manager, prevention, Intel, Mac, iOS, Microsoft
 explicit: no
 block: no
-published: false
+published: true
 ---
 
 Randy and Don discuss an item ripped from the headlines: What should a technical manager do about the recent Meltdown and Spectre exploits? They move into the CTO modes of research, understanding, translation, preparation, upgrading, monitoring, and, most of all, not freaking out. Randy requests a bobblehead or plush toy of the Spectre logo.
