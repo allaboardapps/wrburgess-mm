@@ -11,7 +11,7 @@ xml.rss(
   "version" => "2.0"
 ) do
   xml.channel do
-    xml.atom :linkhref, "#{config[:site_url]}/rss.xml"
+    xml.tag! "atom:link", href: "https://www.ctothink.com/rss.xml", rel: "self", type: "application/rss+xml"
     xml.title config[:site_name]
     xml.description config[:site_description]
     xml.language "en-us"

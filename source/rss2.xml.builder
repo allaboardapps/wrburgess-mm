@@ -7,10 +7,12 @@ xml.rss(
     xml.title config[:site_name]
     xml.description config[:site_description]
     xml.language "en-us"
+    xml.category "Technology"
     xml.pubDate blog.articles.first.date.strftime("%a, %d %b %Y %H:%M:%S %z")
     xml.lastBuildDate blog.articles.first.date.strftime("%a, %d %b %Y %H:%M:%S %z")
     xml.link config[:site_url]
     xml.copyright config[:site_copyright]
+    xml.image href: "#{config[:cdn_url]}/cto-think-logo-itunes.jpg"
     xml.tag! "atom:link", href: "https://www.ctothink.com/rss2.xml", rel: "self", type: "application/rss+xml"
 
     blog.articles.each do |article|
