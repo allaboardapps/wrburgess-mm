@@ -11,6 +11,7 @@ set :site_acronym, "CTOT"
 set :site_email, "hosts@ctothink.com"
 set :site_url, "https://www.ctothink.com"
 set :cdn_url, "https://s3.amazonaws.com/cto-think-podcast-assets"
+set :unsafe_cdn_url, "http://s3.amazonaws.com/cto-think-podcast-assets"
 set :site_copyright, "© 2017-2018 CTO Think. All Rights Reserved."
 set :ga_id, "UA-111873195-1"
 
@@ -81,6 +82,10 @@ set(:port, 3000)
 helpers do
   def cdn_file_url(file_name)
     "#{config[:cdn_url]}/#{file_name}"
+  end
+
+  def unsafe_cdn_file_url(file_name)
+    "#{config[:unsafe_cdn_url]}/#{file_name}"
   end
 
   def image_url(file_name)

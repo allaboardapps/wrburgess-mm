@@ -19,7 +19,7 @@ xml.rss(
           xml.title article.title
           xml.author "#{config[:site_email]} (config[:site_name])"
           xml.pubDate article.date.strftime("%a, %d %b %Y %H:%M:%S %z")
-          xml.enclosure url: cdn_file_url(article.data.audio_file_name), length: article.data.file_size_bytes, type: article.data.file_type
+          xml.enclosure url: unsafe_cdn_file_url(article.data.audio_file_name), length: article.data.file_size_bytes, type: article.data.file_type
           xml.link "#{config[:site_url]}#{article.url}"
           xml.guid(cdn_file_url(article.data.audio_file_name))
           xml.description do
