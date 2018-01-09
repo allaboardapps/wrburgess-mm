@@ -64,9 +64,9 @@
 
 ## Transcripts
 
-* [GoTranscript](https://gotranscript.com), 5 min, $4.90
-* [TranscribeMe](https://newportal.transcribeme.com), 5 min, $3.84
-* [Rev](https://www.rev.com), 5 min, $5.00
+* [Rev](https://www.rev.com), 5 min, $5.00, labels included
+* [GoTranscript](https://gotranscript.com), 5 min, $4.90, labels included
+* [TranscribeMe](https://newportal.transcribeme.com), 5 min, $3.84, no labels
 
 
 

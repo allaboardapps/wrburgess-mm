@@ -35,3 +35,137 @@ Show music is Dumpster Dive by Marc Walloch, licensed by PremiumBeat.com
 #### Closing
 
 Reviews on iTunes are always appreciated and help us spread the word about the podcast.  
+
+#### Transcript
+
+Randy Burgess: Hey Don.  
+
+Don VanDemark: Hey Randy.  
+
+Randy Burgess: What has been going on this week?  
+
+Don VanDemark: Couple things for the two companies I'm working for. With AspirEDU, we're working through that scenario where you initially build a product and you're putting all the different pieces together, all the different APIs and you're building your own system. You build it one way, and as you gain knowledge of the platforms and as you gain insight into all the little stuff that can happen, you think of a much better way to do it, but you've already written the system.  
+
+Right now we're in that big refactoring phase where we're refactoring a lot of the stuff we're doing. That's going to free us up to eventually get to a whole platform, back in platform shift is where we can start to spread out the load even more than we currently do. That's with AspirEDU.  
+
+On the Construction Specialties side, we actually just received some great news this week. It's actually great news on both companies. The University of Florida Alumni Association puts together a list of the 100 fastest growing companies led by University of Florida graduates.  
+
+Randy Burgess: Nice.  
+
+Don VanDemark: Both Aspire Edu and Construction Specialties is on that top 100 list. We're absolutely jazzed over here at the moment. It's really exciting.  
+
+Randy Burgess: Congrats. That's pretty good.  
+
+Don VanDemark: Yeah it is. We're really happy. Construction Specialties, of course being the business that my father started many, many years ago. It's just so great that he's going to get to receive this award for that company after working for so many decades, hard at his business. Real excited about that. What's been going on in your neighborhood?  
+
+Randy Burgess: I've got two clients, we're at the end of the year. Both of them are, I guess, they're happy so far with the technology they have, but they're starting to make some really big changes on the business side, and it's requiring changes on tech. One of the firms is moving from a local delivery system of their product and they're moving it into, they're aiming for a nationwide type of launch. We're going through a lot of design decisions right now to make sure that this nationwide program is affordable and that it works.  
+
+They're kind of going through the debate of doing a new system without investing everything at the beginning in learning how it works. Kind of a MVP of their, of this new feature. Then the other client, they have an existing platform, it makes them money, but they completely want to change completely their pricing system, and they want to start producing more of their inventory the way they do it, it's like a media scanning, or they take film and they digitize it. They want to ramp that system up. We're working on different work flows and different pricing mechanisms to really ramp up their revenues.  
+
+We're kind of at the end of the year where we're not going to start a project right now, but we're aiming to do a lot of product management and technology changes starting in January. To me, it's great because both firms look like they're having some opportunity to grow, and I'm able to do product development and stuff that I really like.  
+
+Don VanDemark: Yes. Cool.  
+
+Randy Burgess: It's a good outlook I'd say.  
+
+Don VanDemark: That sounds really cool.  
+
+Randy Burgess: I think the topic for this week is something that came up in a question to me last week, end of last week, and I wanted to get your thoughts and have a discussion around a business person comes to you and they say, "I have a business idea. It involves building an app, a mobile app, on any number of platforms. Who should I hire? Who are the people I need to hire right now?" That's as much information as you really are going to get from me on this question. I want to know, and this is not necessarily someone you want a job with, so this is someone you're just giving straight CTO advice to. What's the first thing that comes out of your mouth to the question, I want to build an app and who should I hire right now?  
+
+Don VanDemark: Okay. I think the first place I'd start with that is I'd want to have some further discussion. It would be, Hey, let's talk about what your app's going to do. Let's talk about how well defined you think you have your idea. It's highly unlikely that the first thing you want to go do is hire a programmer. In my mind, the first thing you want to make sure you have is someone who can help flesh out at least some idea of what you're looking for in the app. If that person also happens to do some programming, that's great, especially if they can get you to at least a prototype phase, that's fine.  
+
+Really, the emphasis in my mind is on making sure you've thought through all the, you've thought through the initial features, you've thought through the initial use cases, and you've though through the initial data feeds, things like that.  
+
+Randy Burgess: Okay. I'm a wealthy guy. I mean, I know how to make money Don. I have a really good feeling that this idea, which I'll explain in a minute, is going to work. This is hypothetical by the way. I'm [inaudible 00:07:00] The idea is, the new Google Reader. I do know there's other Google Reader apps that have evolved since they shut that down, but it's Google Reader. What I'm going to do is go out and hire writers that are doing the best content, and I'm going to make their content exclusive to people that are using my app.  
+
+My idea is to build a feed reader, blog reader, application that goes on a mobile device, with exclusive content that will draw the eyeballs. I will get a subscription going so that people are basically paying to read the exclusive content articles on my app. With that idea, I've thought through all this enough for me to want to plunk down money. Now I need you to tell me who I'm going to hire.  
+
+Don VanDemark: Alright. We won't question the validity of the business idea.  
+
+Randy Burgess: I didn't say you couldn't. I mean, I know I make a lot of money and I feel like I know everything. You aren't trying to get hired. You're not necessarily trying to get hired.  
+
+Don VanDemark: Right.  
+
+Randy Burgess: I want you to be blunt. I'm not saying, don't repeat what you said before, I'm just asking, what do you say next?  
+
+Don VanDemark: The business idea itself has to get validated. That's a completely different direction than, No, the business, you're going to pay to try and get this developed anyway whether the business idea is good or not because you just like burning money. We're going to go with the burning money assumption.  
+
+Randy Burgess: Yeah okay. Then yeah, we're going to burn money, but what I want you to tell me is, what are my options? What should I be doing when I start out with spending? I'm assuming, as a non technical person, I need technical people. Let's go past the idea of validation. Who am I hiring? What am I trying to do first after idea validation has kind of, I know what I want to aim for.  
+
+Don VanDemark: It can go a number of different directions.  
+
+Randy Burgess: That's what I want to know. I want to know the directions you're talking about.  
+
+Don VanDemark: Off the top of my head, the types of people that come to mind is some sort of user experience designer. This would be a person that would help to flesh out what the users of your app want, what they're looking for and how that translates into the app itself. Your initial conversations with a UX or User Experience designer would be around the types of people and their motivations, and what they're trying to get out of your app. That's one direction you could go.  
+
+Another direction you can go is you can go to the sheer UI, User Interface designer, to say, okay, what's my app going to look like? I don't know that that's necessarily the right first choice. Sometimes user experience and user interface people, one person does both jobs, but those are two separate fields. I don't know that I'd go to User interface before you try and understand what the users are trying to do, and then depending on the idea, and I guess we'd have to dig in a little bit further onto the idea, is to, if everybody's providing original content, then we're not worried so much about pulling data from a myriad of sources. If you're talking about a curated feed reader where we're pulling in all these articles and things like that and we have people on the app end who are taking those articles, writing up summaries and saying, this is something you should read, then yeah, you need somebody on the backend to figure out how you're going to pull all that data in. That's right off the top of my head, that's three different places you could go.  
+
+A product manager, you're way too early for a product manager in my mind.  
+
+Randy Burgess: Okay.  
+
+Don VanDemark: The owner is the product manager.  
+
+Randy Burgess: Okay, that's a strong piece of advice right there. You're saying to go after the design side and focus on that first. What are the advantages, in your mind, of hiring that UX person or the interface person? Why? Why are you hiring them before you get a product manager, before you hire a technical person? What's the advantage of that?  
+
+Don VanDemark: I'm going with the assumption that for these first initial few iterations, you, I'm going to use the presumptive you being the owner, you are going to be the product manager, so to speak. You're going to be the one to make all the decisions on how things go. That's why I kind of went away from a product manager first. The reason I'm leaning towards Designer is the developer side of me is arguing with myself, but you don't build a house without blueprints.  
+
+Randy Burgess: Yeah.  
+
+Don VanDemark: When you want to build a house, you go to an architect. What is an architect but a user experience designer. They are the people who can go and say, Okay, your house sounds awesome, your all glass house sounds awesome, it's going to look wonderful. Have you thought about bathrooms? You talked about your house being all glass, but I'm not really sure you want to see through a bathroom. That's kind of ... The architects also have lots of good engineering background, so they're not going to sit here and design a house that can't be built either. It all comes down to the quality of the person you're hiring. That's why I went for the design phase first. You kind of have to know what you're building before you go build.  
+
+Randy Burgess: Let me jump in because I really like your example of the house-building, and part of it is because I'm looking to buy a house. Megan and I are looking for a place. We've actually put our foot in the water on, what if we built our own place? Or most of the time, you're looking for an existing home. I want to jump in with what I initially told this particular, potential client, versus, person I scared off. I'm not sure which way it's going.  
+
+What I talked to them about was the buy versus build in the first place. They came to me and they talked all day about content. The strongest thing they talked about was, I want a blog reader because I'm going to go off and do hiring of talent, hiring of content production. Content is going to be great, subscriptions. They talked a significant amount of time to me about the fact that the content was the King and they would be putting significant investment in the hiring of the writers, the talent, to produce the content.  
+
+What they didn't talk about was that they wanted an app that beat the market on features, or that was better than other blog reading apps. I kind of said, let's talk about this app you want to build because you don't seem as excited about the app as you do about the content. They admitted it. They were like, Yeah, I don't. I just need this app to do what I need it to do. I don't really care to try to beat Feebly or Old feed reader or whatever they call it. I just want people to be able to subscribe through my app.  
+
+I proposed, there is a significant cost to building your own house in the sense that you have to pick everything from scratch and know all the issues with the land, with the team that's hired, with the design, the blueprint that you just talked about. You don't really care about the house that much. You just want it to work from day one, to do this other thing of bringing in this content and then delivering that. It's a mechanism for that.  
+
+Given the number of apps on the market, have you proposed with the money you were talking about spending over a time. They were talking about a five-month build or so. I kind of said, I think you may want to consider, going, reaching out to existing app producers or makers that have these type of apps and see if you cannot white label or buy a version of their software, just to use for your purpose, and then perhaps get a maintenance agreement with that. I see a whole lot of risk in you being a tech firm and a content producer, versus a content production company that utilizes existing platform that you're not even trying to compete on that much. You want the content to be the King.  
+
+That's how I approached it and that's why your home-building thing, that's what I'm going through on the personal side of, do we want to go through the eight or nine month process to build a house and the risk that comes with that versus buying an existing place and in theory, you have all the risk laid out in front of you and you're paying up front some money for that of course, but you also know the risk involved, versus I don't think a custom build is even something that this client wants. I, of course, am answering this question having talked to them a lot more than you did, but I think, your bringing up the house-building thing spoke a lot to how I talked to them about it.  
+
+Don VanDemark: That's an angle that I hadn't formulated thoughts on. I do think a UX designer might tease that out. Obviously if I had had the conversation with the client, it probably would have come up in conversation as well that they weren't necessarily looking to build something. You're absolutely right, buy versus build is one of those initial decisions you have to make.  
+
+Randy Burgess: To the point of the design thing, because I agree with you there 100% that Design is where you start. What I have said to clients, or anyone I've worked with, even my bosses as a CTO in the past, to have a designer to take an idea and put it on a screen, is way cheaper for a designer to do than it is for a developer. A developer does not have typically, a good amount of expertise and user experience, and conducting the research necessary. Even presenting what looks like a good idea on the screen.  
+
+You're going to be paying for significantly higher per hour rates with a developer than you should be paying a designer, to get that idea on a screen for you. I've always kind of, in addition to everything you said about the reason why you want that research conducted by a professional. I also feel like on an hour to hour basis, you get a much more efficient product that way, or design that way, versus having a coder just build it for you on the fly.  
+
+Don VanDemark: Sure. There are tools out there like Envision and other products that allow a designer to pretty much build a, if not a full prototype, at least something you can click through and play with and get a feel for.  
+
+Randy Burgess: Yeah. Let's just, let's say, client decides they want to do, they want to go with your idea of design. Where does someone that doesn't know, and this could be a whole episode by itself, but where would someone start to pursue that UX person?  
+
+Don VanDemark: You would start by looking, finding examples of things you like that are out there in the app world. Maybe in your own community because that makes communication a little easier. You would start with things that you admire other apps doing other websites doing. I won't go as far as to say ad campaigns, but that's the general idea. You're looking for things that make sense to your app. That allows you to go contact those people and say Hey, did you use a third party, a freelance UX designer for this? Did you do it in-house? Start to feel out where that UX designer network is. You can go so far as to look at local meetups for user experience design. You kind of have to be in one of the bigger cities for those to be well attended and to have a good amount to look at, but those are a couple places off the top of my head that come out as, where can I find a person to talk to about my app and how we can design it.  
+
+Randy Burgess: Cool. I think, my next question, which I think we'll save for another time, is about that person. What their talents are, what we're looking for while we're going, following in what you're talking about of the location, or the source of them.  
+
+I think we're going to run out of time today to cover all that I think starting with design, I think the whole theme of this discussion is really about making sure you know what you're doing before you invest in a build. Starting, I totally agree that starting at the design level and the design professionals is probably the first step that a non-technical person wants to do. It's certainly what I'd do, and I'm a technical person wanting to start a product. What were you saying?  
+
+Don VanDemark: I'll take it even one step further. The designers, both user experience and user interface designers, basically what we were saying earlier, they can build you something without there being a lot of backend back there. You can sit there and iterate on your idea a number of times before you've invested all this time in the development of it. This just goes back to your point earlier. I don't think there's, I think that's the way you have to start. We're both, at the end of the day, we both started as backend developer strong background people, as opposed to being designers. Neither of us are truly designers.  
+
+Randy Burgess: Yup.  
+
+Don VanDemark: Even coming from out background, we're like, yeah, you probably want to know where you're going before you ... You need the map before you go on the trip. If you don't, you'll have an exciting trip, but you may not get where you want to go.  
+
+Randy Burgess: But Don, I have a lot of money. I just want to strangle you.  
+
+Don VanDemark: Hey, you want an exciting trip, get in the car and go. Don't pull up Google Maps or anything. Just go, see where it takes you.  
+
+Randy Burgess: Alright. You have a good week. We will talk next week. We'll find a good, something else from the recent experience level to discuss as what would a CTO, what does a CTO think about in this scenario. It's good talking to you. Anything big, other than the marketing stuff, anything big coming up in the next week?  
+
+Don VanDemark: Not, business wise, nothing real big coming up. We're just, like I said, on the AspirEDU side, we're just heads down on the refactor. That's going to be a bit. That's going to take awhile. That's something you bite off in little chunks and still work on your platform and making it better while you're redesigning the backend that nobody ever sees. That's really where a lot of our effort is going. What do you have planned?  
+
+Randy Burgess: I'm working on a side project. I'll have to talk to you more about it. Uh-oh is the big statement.  
+
+Don VanDemark: The side projects are what get us in trouble time-wise.  
+
+Randy Burgess: Totally. Totally. I think this one makes sense. They all do, but we'll talk more about it in the future. This idea fits my experience in business quite well. We'll just have to see if the market wants the idea.  
+
+Don VanDemark: Awesome. That's great.  
+
+Randy Burgess: We'll talk about it soon. Alright man, have a good week and we will talk soon.  
+
+Don VanDemark: That sounds great. Thank you.  
+
+Randy Burgess: See you then.  
