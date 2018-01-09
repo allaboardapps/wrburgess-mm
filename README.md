@@ -57,8 +57,16 @@
 * Apple Podcast (APPROVED)
 * Blubrry Directory (SUBMITTED)
 * Pocketcasts (SUBMITTED)
-* ACast (SUBMITTED) https://acast.com/ctothink
-* Google Play (PENDING)
-* Stitcher (PENDING)
+* ACast (SUBMITTED)
+* Google Play (APPROVED)
+* Stitcher (APPROVED)
 * Tunein (PENDING)
+
+## Transcripts
+
+* [GoTranscript](https://gotranscript.com), 5 min, $4.90
+* [TranscribeMe](https://newportal.transcribeme.com), 5 min, $3.84
+* [Rev](https://www.rev.com), 5 min, $5.00
+
+
 
