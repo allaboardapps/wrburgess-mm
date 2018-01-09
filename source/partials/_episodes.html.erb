@@ -34,12 +34,12 @@
       <li>
         <a href="<%= article.url %>" class="webpage">
           <%= image_tag("webpage_icon.svg", width: "20", height: "20", alt: "Website Icon", title: "View the Episode Page") %>
-          Episode Page
+          Show Notes / Transcript
         </a>
       </li>
     </ul>
     <div class="episode-content">
-      <%= article.body %>
+      <%= article.summary %>
     </div>
   </div>
 <% end %>
