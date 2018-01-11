@@ -18,7 +18,7 @@ xml.rss(
       if article.data.published
         xml.item do
           xml.title article.title
-          xml.author "#{config[:site_email]} (config[:site_name])"
+          xml.author "#{config[:site_email]} (#{config[:site_name]})"
           xml.pubDate article.date.strftime("%a, %d %b %Y %H:%M:%S %z")
           xml.enclosure url: article.data.soundcloud_link, length: article.data.file_size_bytes, type: article.data.file_type
           xml.link "#{config[:site_url]}#{article.url}"
