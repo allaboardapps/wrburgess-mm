@@ -29,7 +29,6 @@ READMORE
 * Test-driven development can help a firm quickly visualize how changes made cause butterfly effects across a system
 * The conversation moved towards the subject of complacency, which will be expanded upon in a later episode
 
-
 #### Links
 
 * [Nassim Nicholas Taleb website](http://www.fooledbyrandomness.com)
