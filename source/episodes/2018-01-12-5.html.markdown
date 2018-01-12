@@ -1,0 +1,55 @@
+---
+id: 5
+title: Episode 5 - What's the value of test driven development in an Antifragile world?
+date: 2018/01/12 06:00:00PM
+audio_file_name: cto_think_episode_0005.mp3
+soundcloud_link: 'http://feeds.soundcloud.com/stream/382678694-cto-think-episode-5-antifragile-and-test-driven-development.mp3'
+duration: '00:33:48'
+file_size_bytes: 40000000
+file_type: audio/mpeg
+keywords: chaos, business, Netflix, Amazon Web Services, test driven development, tdd, testing
+explicit: no
+block: no
+published: true
+---
+
+Don brings up the subject of chaos, based on a book he's been reading, Antifragile, by Nassim Nicholas Taleb. We discuss the merits of test driven development, unpredictability, and how technical managers can work towards a more resilient product in the face of inevitable failures.
+
+READMORE
+
+#### Notes
+
+* Antifragile represents a system that improves under chaos
+* In a well-tuned org, with test cases and adaptive practives, software systems can improve under chaos
+* Netflix and Amazon built their systems with chaos in mind. Expect failure and build with failovers.
+* For a system to be antifragile, its parts must be fragile
+* To build a resilient backend can be very costly
+* Asking the executive team about what's feasible for downtime vs the costs of a completely redundant system is a good starting point
+* Understand what the business needs are during a failure event
+* Test-driven development can help a firm quickly visualize how changes made cause butterfly effects across a system
+* The conversation moved towards the subject of complacency, which will be expanded upon in a later episode
+
+
+#### Links
+
+* [Nassim Nicholas Taleb website](http://www.fooledbyrandomness.com)
+* [Antifragile: Things That Gain from Disorder on Amazon](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
+* [Nassim Nicholas Taleb on Amazon](https://www.amazon.com/Nassim-Nicholas-Taleb/e/B000APVZ7W/ref=dp_byline_cont_pop_book_1)
+* [Chaos Monkey](https://github.com/Netflix/chaosmonkey)
+* [Amazon Web Services EC2](https://aws.amazon.com/ec2/)
+
+#### Closing
+
+Thanks for listening to the [CTO Think](https://www.ctothink.com) Podcast. If you liked what you heard, please share a link to the podcast with your friends.  
+
+Reviews on iTunes are always appreciated and help us spread the word about the podcast.  
+
+Show music is Dumpster Dive by [Marc Walloch](http://marcwalloch.com/), licensed by [PremiumBeat.com](https://www.premiumbeat.com)  
+
+Shownotes and previous episodes can be found on our website at [www.ctothink.com](https://www.ctothink.com/)  
+
+For questions, comments, or things you'd like to hear on future shows, please email us at [hosts@ctothink.com](mailto:hosts@ctothink.com)  
+
+For notifications of future episodes, please sign up to the CTO Think newsletter on [www.ctothink.com](https://www.ctothink.com/)  
+
+We'll keep talking next week!
