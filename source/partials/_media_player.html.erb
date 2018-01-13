@@ -3,4 +3,4 @@
 <a id="listen"></a>
 <h2>Listen</h2>
 <h3><%= article.title %></h3>
-<audio src="<%= article.data.soundcloud_link %>" preload="auto" width="100%"></audio>
+<audio src="<%= cdn_file_url(article.data.audio_file_name) %>" preload="auto" width="100%"></audio>
