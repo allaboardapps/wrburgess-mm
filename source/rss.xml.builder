@@ -50,8 +50,10 @@ xml.rss(
     xml.googleplay :category, text: "Technology"
     xml.itunes :explicit, "no"
 
-    blog.articles.each do |article|
+    blog.articles.each_with_index do |article, index|
       if article.data.published
+        order_number = index + 1
+
         xml.item do
           xml.title article.title
           xml.author config[:site_name]
@@ -61,7 +63,7 @@ xml.rss(
           xml.updated article.date.to_time.iso8601
           xml.itunes :block, article.data.block
           xml.googleplay :block, article.data.block
-          xml.itunes :order, article.data.id
+          xml.itunes :order, order_number
           xml.itunes :author, config[:site_name]
           xml.itunes :email, config[:site_email]
           xml.googleplay :author, config[:site_name]
