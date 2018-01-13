@@ -9,7 +9,7 @@
         <%= partial "partials/subscribe" %>
       </div>
       <h3>Listen</h3>
-      <audio src="<%= current_page.data.soundcloud_link %>" preload="auto" width="100%"></audio>
+      <audio src="<%= cdn_file_url(current_page.data.audio_file_name) %>" preload="auto" width="100%"></audio>
       <h3>Details</h3>
         <div class="pub-date">
           <span class="label">Published:</span>&nbsp;
@@ -25,7 +25,7 @@
         </div>
         <div class="download">
           <span class="label">Download:</span>&nbsp;
-          <a href="<%= current_page.data.soundcloud_link %>" class="webpage" download>
+          <a href="<%= cdn_file_url(current_page.data.audio_file_name) %>" class="webpage" download>
             Audio File (mp3)
           </a>
         </div>
