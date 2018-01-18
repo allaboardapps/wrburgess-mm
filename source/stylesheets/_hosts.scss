@@ -1,22 +1,25 @@
 .hosts {
+  display: grid;
+  grid-template-columns: 40px 125px 1fr 125px 1fr;
+  grid-template-rows: 120px 150px 150px;
+
+  @media screen and (min-device-width: 450px) {
+    grid-template-rows: 120px 120px;
+  }
+
+  h2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
 
   .person {
-    display: grid;
-    grid-template-columns: 125px 1fr 1fr;
-    margin-bottom: 20px;
 
     .avatar {
-      grid-column-start: 1;
-      grid-column-end: 1;
-      align-self: start;
-      justify-self: end;
+      float: left;
+      margin-right: 10px;
     }
 
     .details {
-      grid-column-start: 2;
-      grid-column-end: 4;
-      align-self: start;
-      justify-self: start;
       margin-left: 10px;
 
       h3 {
@@ -35,7 +38,7 @@
     }
 
     .social {
-      padding-left: 5px;
+      padding-left: 0;
 
       li {
         display: inline-block;
@@ -47,23 +50,23 @@
 
   .person-1 {
     align-self: start;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 6;
 
     @media screen and (min-device-width: 450px) {
-      grid-column-start: 1;
-      grid-column-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 4;
     }
   }
 
   .person-2 {
     align-self: start;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 6;
 
     @media screen and (min-device-width: 450px) {
-      grid-column-start: 2;
-      grid-column-end: 3;
+      grid-column-start: 4;
+      grid-column-end: 6;
     }
   }
 }
