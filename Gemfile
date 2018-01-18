@@ -12,5 +12,5 @@ gem "nokogiri", "1.8.1"
 
 source "https://rails-assets.org" do
   gem "rails-assets-jquery", "3.2.1"
-  gem "rails-assets-mediaelement", "4.2.7"
+  gem "rails-assets-mediaelement", "4.2.8"
 end
