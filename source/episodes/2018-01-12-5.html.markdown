@@ -32,8 +32,8 @@ READMORE
 #### Links
 
 * [Nassim Nicholas Taleb website](http://www.fooledbyrandomness.com)
-* [Antifragile: Things That Gain from Disorder on Amazon](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-* [Nassim Nicholas Taleb on Amazon](https://www.amazon.com/Nassim-Nicholas-Taleb/e/B000APVZ7W/ref=dp_byline_cont_pop_book_1)
+* [Antifragile: Things That Gain from Disorder (on Amazon)](https://www.amazon.com/gp/product/0812979680/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812979680&linkCode=as2&tag=allaboardapps-20&linkId=4c6dff7004c18c61a1721cb1b24b2e0b")
+* [Nassim Nicholas Taleb on Amazon](https://www.amazon.com/gp/product/B000APVZ7W/ref=as_li_tl?ie=UTF8&tag=allaboardapps-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B000APVZ7W&linkId=d0bd73d2e49e81ccd4c3a47a0f591802)
 * [Chaos Monkey](https://github.com/Netflix/chaosmonkey)
 * [Amazon Web Services EC2](https://aws.amazon.com/ec2/)
 
