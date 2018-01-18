@@ -1,9 +1,10 @@
 .hosts {
   display: grid;
   grid-template-columns: 40px 125px 1fr 125px 1fr;
-  grid-template-rows: 120px 150px 150px;
+  grid-template-rows: 120px 170px 150px;
 
   @media screen and (min-device-width: 450px) {
+    grid-template-columns: 125px 1fr 125px 1fr;
     grid-template-rows: 120px 120px;
   }
 
@@ -50,8 +51,8 @@
 
   .person-1 {
     align-self: start;
-    grid-column-start: 2;
-    grid-column-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
 
     @media screen and (min-device-width: 450px) {
       grid-column-start: 2;
@@ -61,8 +62,8 @@
 
   .person-2 {
     align-self: start;
-    grid-column-start: 2;
-    grid-column-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
 
     @media screen and (min-device-width: 450px) {
       grid-column-start: 4;

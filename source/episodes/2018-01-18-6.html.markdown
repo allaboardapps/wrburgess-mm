@@ -1,6 +1,6 @@
 ---
 id: 6
-title: Episode 6 - Does a CTO need to code as part of their job?
+title: Episode 6 - Does a Tech Manager need to code to be effective?
 date: 2018/01/18 01:00:00PM
 audio_file_name: cto_think_episode_0006.mp3
 soundcloud_link: 'https://soundcloud.com'
