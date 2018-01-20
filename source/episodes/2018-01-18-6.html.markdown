@@ -1,29 +1,38 @@
 ---
 id: 6
-title: Episode 6 - Does a Tech Manager need to code to be effective?
-date: 2018/01/18 01:00:00PM
+title: Episode 6 - Does a tech manager need to code to be effective?
+date: 2018/01/18 02:00:00PM
 audio_file_name: cto_think_episode_0006.mp3
-soundcloud_link: 'https://soundcloud.com'
-duration: '00:00:00'
-file_size_bytes: 0
+soundcloud_link: 'http://feeds.soundcloud.com/stream/386218976-cto-think-episode-6-does-a-tech-manager-need-to-code-to-be-effective.mp3'
+duration: '00:37:00'
+file_size_bytes: 38200000
 file_type: audio/mpeg
-keywords: chaos, business, Netflix, Amazon Web Services, test driven development, tdd, testing
+keywords: cto, technical manager, coding, python, django, patreon, transcripts
 explicit: no
 block: no
-published: false
+published: true
 ---
 
-We tackle the topic of whether a CTO or technical manager needs to be able to code to be effective at their job.
+Randy is a CTO that codes almost daily. Don has found it difficult to string together multiple days where he's able to code for his current roles. Today, we tackle the topic of whether a CTO or technical manager needs to be able to code to be effective at their job.
 
 READMORE
 
 #### Notes
 
-* 
+* We've launched a Patreon campaign to raise funds for per-episode transcripts
+* Don's AspirEDU team chose to hire a developer that knew Python/Django, which was not in Don's programming skillset
+* It's normal for a manager to lose "closeness with the code" as the firm and product scales
+* Should a company founder hire a CTO even if they have zero background in the tech stack?
+* Focus and available time are huge factors regarding the time a technical manager has for hands-on coding
+* After a manager gets past 3-4 developers on their team, having time to be in the code is a struggle
+* In the scenario of a non-technical company, an owner should focus more on a manager that can manage Buy vs Build properly.
+* It's vital that as a product requires "stitching together" disparate parts of the technology, someone on the team can build and maintain the in-betweens.
+* Giving a non-manager the title of "CTO" can be a big problem down the road as the company and product grows.
+* There ain't no thang called a "Senior CTO" unless you're calling them "old."
 
 #### Links
 
-* 
+* Patreon: [CTO Think Podcast is creating Episode Transcripts for Accessiblity](https://www.patreon.com/ctothink)
 
 #### Closing
 
