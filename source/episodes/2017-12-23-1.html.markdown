@@ -1,6 +1,6 @@
 ---
 id: 1
-title: Episode 1 - Introducing CTO Think
+title: 1: Introducing CTO Think
 date: 2017/12/23 09:00:00AM
 audio_file_name: 'cto_think_episode_0001.mp3'
 soundcloud_link: 'http://feeds.soundcloud.com/stream/382183385-cto-think-episode-1-introducing-cto-think.mp3'
@@ -68,4 +68,4 @@ Don VanDemark: That sounds great. I look forward to putting content together tha
 
 Randy Burgess: All right. We'll talk next week.  
 
-Thanks for listening to the CTO Think podcast. If you liked what you heard, please share a link to the podcast with your friends. Show music is Dumpster Dive by Mark Waller, licensed by Premium Beat.com. Show notes and previous episodes can be found on our website at CTOthink.com. For questions, comments, or things you'd like to hear on future shows, please email us at advice@ctothink.com. For notifications of future episodes, please sign up to the CTO Think newsletter also on our website. We'll keep talking next week.  
+Thanks for listening to the CTO Think podcast. If you liked what you heard, please share a link to the podcast with your friends. Show music is Dumpster Dive by Mark Walloch, licensed by Premium Beat.com. Show notes and previous episodes can be found on our website at CTOthink.com. For questions, comments, or things you'd like to hear on future shows, please email us at advice@ctothink.com. For notifications of future episodes, please sign up to the CTO Think newsletter also on our website. We'll keep talking next week.  

@@ -11,6 +11,6 @@ gem "middleman-sprockets", "4.1.1"
 gem "nokogiri", "1.8.1"
 
 source "https://rails-assets.org" do
-  gem "rails-assets-jquery", "3.3.0"
+  gem "rails-assets-jquery", "3.3.1"
   gem "rails-assets-mediaelement", "4.2.8"
 end
