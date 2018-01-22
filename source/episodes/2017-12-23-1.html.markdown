@@ -1,6 +1,6 @@
 ---
 id: 1
-title: 1: Introducing CTO Think
+title: '1: Introducing CTO Think'
 date: 2017/12/23 09:00:00AM
 audio_file_name: 'cto_think_episode_0001.mp3'
 soundcloud_link: 'http://feeds.soundcloud.com/stream/382183385-cto-think-episode-1-introducing-cto-think.mp3'
