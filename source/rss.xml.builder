@@ -55,7 +55,7 @@ xml.rss(
         order_number = index + 1
 
         xml.item do
-          xml.title article.title
+          xml.title "#{article.data.id}: #{article.title}"
           xml.author config[:site_name]
           xml.id article.data.id
           xml.published article.date.to_time.iso8601

@@ -1,6 +1,6 @@
 ---
 id: 3
-title: '3: When best to work on tech debt?'
+title: When best to work on tech debt?
 date: 2018/01/02 09:00:00AM
 audio_file_name: cto_think_episode_0003.mp3
 soundcloud_link: 'http://feeds.soundcloud.com/stream/382183406-cto-think-episode-3-when-best-to-work-on-tech-debt.mp3'
