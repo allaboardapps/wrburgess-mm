@@ -12,6 +12,10 @@
       <audio src="<%= cdn_file_url(current_page.data.audio_file_name) %>" preload="auto" width="100%"></audio>
       <h2>Show Details</h2>
       <div class="pub-date">
+        <span class="label">Episode:</span>&nbsp;
+        <%= current_page.data.id %>
+      </div>
+      <div class="pub-date">
         <span class="label">Published:</span>&nbsp;
         <%= current_page.date.strftime("%A, %B %e, %Y") %>
       </div>

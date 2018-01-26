@@ -22,7 +22,7 @@ xml.rss(
           xml.pubDate article.date.strftime("%a, %d %b %Y %H:%M:%S %z")
           xml.enclosure url: article.data.soundcloud_link, length: article.data.file_size_bytes, type: article.data.file_type
           xml.link "#{config[:site_url]}#{article.url}"
-          xml.guid(article.data.soundcloud_link)
+          xml.guid(article.data.guid)
           xml.description do
             xml.cdata! article.summary
           end

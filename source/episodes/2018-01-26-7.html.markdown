@@ -1,0 +1,56 @@
+---
+id: 7
+title: How important is the philosophy of a strict work/life balance?
+date: 2018/01/26 02:00:00PM
+audio_file_name: cto_think_episode_0007.mp3
+soundcloud_link: 'http://feeds.soundcloud.com/x.mp3'
+guid: 'http://feeds.soundcloud.com/x.mp3'
+duration: '00:37:00'
+file_size_bytes: 38200000
+file_type: audio/mpeg
+keywords: cto, technical manager, self-learning, work, life, balance, 9-to-5
+explicit: no
+block: no
+published: false
+---
+
+How important is a strict adherence to a tech/non-tech or work/life balance?
+
+READMORE
+
+#### Notes
+
+* We've launched a Patreon campaign to raise funds for per-episode transcripts.
+* Some people feel the need to adhere to a strict 9-to-5.
+* The source of the rigid 9-to-5 work-life balance theories are important to consider.
+* Wealthy folks, or folks that have already "made it" may have a different perspective than folks trying to now launch a company.
+* Do the people touting a balanced philosophy, now, did they follow that same philosophy when they were working their way up?
+* People that have mastered a craft may not have a lot more to learn.
+* The work/life philosophy out of Silicon Valley stems from the investor/investee relationship and expectations.
+* The strictly 9-to-5 philosophy can feel very restraining to some people.
+* If a person has the goals to be in an innovative field, to make more money, and to manage more people, and their philosophy is strictly a 9-to-5 learning program, good luck to that.
+* The life constraints that people face: multiple jobs, debt, family, health, all weigh on a person's ability to focus on learning outside of a standard workday timeline.
+* Don recommends a book named [Shadow Divers, by Robert Kurson]("https://www.amazon.com/gp/product/0739320831/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0739320831&linkCode=as2&tag=allaboardapps-20&linkId=7e895f36f4a157b186fc9d0f506cddd3")
+* Randy recommends a newsletter called [SoftwareLeadWeekly, publised by Oren Ellenbogen](https://www.softwareleadweekly.com)
+
+#### Links
+
+* Don's Recommended Read: [Shadow Divers: The True Adventure of Two Americans Who RIsked Everything to Solve One of the Last Mysteries of World War II]("https://www.amazon.com/gp/product/0739320831/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0739320831&linkCode=as2&tag=allaboardapps-20&linkId=7e895f36f4a157b186fc9d0f506cddd3")
+* Randy's Recommended Read: [SoftwareLeadWeekly](https://www.softwareleadweekly.com)
+* Patreon: [CTO Think Podcast is creating Episode Transcripts for Accessiblity](https://www.patreon.com/ctothink)
+
+#### Closing
+
+Thanks for listening to the [CTO Think](https://www.ctothink.com) Podcast. If you liked what you heard, please share a link to the podcast with your friends.  
+
+Reviews on iTunes are always appreciated and help us spread the word about the podcast.  
+
+Show music is Dumpster Dive by [Marc Walloch](http://marcwalloch.com/), licensed by [PremiumBeat.com](https://www.premiumbeat.com)  
+
+Shownotes and previous episodes can be found on our website at [www.ctothink.com](https://www.ctothink.com/)  
+
+For questions, comments, or things you'd like to hear on future shows, please email us at [hosts@ctothink.com](mailto:hosts@ctothink.com)  
+
+For notifications of future episodes, please sign up to the CTO Think newsletter on [www.ctothink.com](https://www.ctothink.com/)  
+
+We'll keep talking next week!

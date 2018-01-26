@@ -92,7 +92,7 @@ xml.rss(
           end
           xml.enclosure url: article.data.soundcloud_link, length: article.data.file_size_bytes, type: article.data.file_type
           xml.link "#{config[:site_url]}#{article.url}"
-          xml.guid({ isPermaLink: false }, article.data.soundcloud_link)
+          xml.guid article.data.guid
         end
       end
     end
