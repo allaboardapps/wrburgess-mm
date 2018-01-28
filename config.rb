@@ -1,7 +1,7 @@
 require "tzinfo"
 Time.zone = "America/New_York"
 
-redirect "/rss2.xml", to: "/rss.xml"
+# redirect "/rss2.xml", to: "/rss.xml"
 
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
