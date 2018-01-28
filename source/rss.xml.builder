@@ -68,6 +68,7 @@ xml.rss(
           end
           xml.itunes :keywords, article.data.keywords
           xml.itunes :image, href: "#{config[:cdn_url]}/cto-think-logo-itunes.jpg"
+          xml.itunes :explicit, article.data.explicit
         end
       end
     end
