@@ -1,28 +1,28 @@
 body {
   font-family: $font-main;
+}
 
-  h1 {
-    font-family: $font-header;
-    font-size: 3.5em;
-  }
+h1 {
+  font-family: $font-header;
+  font-size: 3.5em;
+}
 
-  h2 {
-    font-family: $font-header;
-    font-size: 2.5em;
-  }
+h2 {
+  font-family: $font-header;
+  font-size: 2.5em;
+}
 
-  h3 {
-    font-family: $font-main;
-    font-size: 1.5em;
-  }
+h3 {
+  font-family: $font-main;
+  font-size: 1.5em;
+}
 
-  .page {
-    width: 90%;
+.page {
+  width: 90%;
+  margin: 0 auto;
+
+  @media screen and (min-device-width: 960px) {
+    width: 960px;
     margin: 0 auto;
-
-    @media screen and (min-device-width: 960px) {
-      width: 960px;
-      margin: 0 auto;
-    }
   }
 }
