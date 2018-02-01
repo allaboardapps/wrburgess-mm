@@ -27,23 +27,17 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href='<%= "#{config[:site_url]}/rss.xml" %>' />
     <%= stylesheet_link_tag "site", rel: "preload", as: "style", onload: "this.rel='stylesheet'" %>
     <script type='text/javascript'>
-    //<![CDATA[
-
       WebFontConfig = {
-          google: {
-              families: ['Overpass:400,700', 'Permanent+Marker']
-          }
+        google: {
+          families: ['Overpass:400,700', 'Permanent+Marker']
+        }
       };
-
       (function(d) {
-          var wf = d.createElement('script'),
-              s = d.scripts[0];
-          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-          wf.async = true;
-          s.parentNode.insertBefore(wf, s);
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
       })(document);
-
-    //]]>
     </script>
   </head>
   <body>
