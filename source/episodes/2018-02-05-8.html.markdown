@@ -1,12 +1,12 @@
 ---
 id: 8
 title: What criteria do you use for self, managed, cloud, or serverless hosting?
-date: 2018/02/02 03:00:00PM
+date: 2018/02/05 08:00:00AM
 audio_file_name: cto_think_episode_0008.mp3
 soundcloud_link: 'http://feeds.soundcloud.com/x'
 guid: 'http://feeds.soundcloud.com/x'
-duration: '00:00:00'
-file_size_bytes: 1000000000
+duration: '00:40:38'
+file_size_bytes: 47919923
 file_type: audio/mpeg
 keywords: self-hosted, managed hosting, cloud hosting, serverless, aws, google cloud, azure, cto, management
 explicit: no
@@ -20,10 +20,21 @@ READMORE
 
 #### Notes
 
+* Don is headed to Gainesville for the [Gator 100](https://gator100.ufl.edu/home) ceremonies where both of his firms are being recognized as top 100 firms for growth by University of Florida alumni
+* Randy worked as a substitute teacher for the [Northwestern Coding Bootcamp](https://bootcamp.northwestern.edu/coding) full-time program for two days
+* AspirEDU went straight to Heroku for their hosting
+* Randy started with a desktop computer that sat in the middle of the room, to a closet rack system, to outsourced co-location
+* Some of the biggest negatives of cloud vs in-house is cost or lack of control/flexibility
+* When Amazon Web Services East goes down, everyone seems to be going down at the same time, but you can let AWS techs take care of it
+* Nobody seems to talk about the dev ops people required to run a system if you switch away from a managed provider
+* Everytime you need to go directly to AWS, there's a significant time investment to get things launched
+* The less work our team handled on-site or on-team always had benefits from an efficiency standpoint
 * Thanks to Jeremy Lasich for his contribution to our [Patreon campaign](https://www.patreon.com/ctothink) to produce transcripts for each episode.
 
 #### Links
 
+* [Gator 100 recognizes the 100 fastest-growing Gator-led businesses in the world](https://gator100.ufl.edu/home)
+* [Northwestern Coding Bootcamp](https://bootcamp.northwestern.edu/coding)
 * [Amazon Web Services](https://aws.amazon.com)
 * [Google Cloud](https://cloud.google.com/)
 * [Microsoft Azure](https://azure.microsoft.com/en-us/)

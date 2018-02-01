@@ -18,14 +18,33 @@
     <meta name="description" content="<%= config[:site_description] %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="/manifest.json">
-    <link href="https://fonts.googleapis.com/css?family=Overpass:400,700|Permanent+Marker" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="<%= image_path('apple-touch-icon.png') %>">
     <link rel="icon" type="image/png" sizes="32x32" href="<%= image_path('favicon-32x32.png') %>">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= image_path('favicon-16x16.png') %>">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= image_path('android-chrome-192x192.png') %>">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= image_path('android-chrome-512x512.png') %>">
     <meta name="theme-color" content="#a4cdfa">
-    <%= stylesheet_link_tag "site" %>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href='<%= "#{config[:site_url]}/rss.xml" %>' />
+    <%= stylesheet_link_tag "site", rel: "preload", as: "style", onload: "this.rel='stylesheet'" %>
+    <script type='text/javascript'>
+    //<![CDATA[
+
+      WebFontConfig = {
+          google: {
+              families: ['Overpass:400,700', 'Permanent+Marker']
+          }
+      };
+
+      (function(d) {
+          var wf = d.createElement('script'),
+              s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+          wf.async = true;
+          s.parentNode.insertBefore(wf, s);
+      })(document);
+
+    //]]>
+    </script>
   </head>
   <body>
     <%= yield %>

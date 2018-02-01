@@ -1,6 +1,13 @@
 //= require jquery
 //= require mediaelement
 
+[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+  img.setAttribute('src', img.getAttribute('data-src'));
+  img.onload = function() {
+    img.removeAttribute('data-src');
+  };
+});
+
 $('.episodes h3').click(function(evnt) {
   const $h3 = $(evnt.target);
 
