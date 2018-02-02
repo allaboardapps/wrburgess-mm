@@ -12,6 +12,6 @@ gem "nokogiri", "1.8.2"
 
 source "https://rails-assets.org" do
   gem "rails-assets-jquery", "3.3.1"
-  gem "rails-assets-mediaelement", "4.2.8"
+  gem "rails-assets-audiojs", "1.0.1"
   gem "rails-assets-vanilla-lazyload", "10.4.2"
 end

@@ -1,6 +1,6 @@
 //= require jquery
-//= require mediaelement
 //= require vanilla-lazyload
+//= require howler
 
 var myLazyLoad = new LazyLoad();
 
@@ -32,11 +32,5 @@ $('.episodes h3').click(function(evnt) {
     // update media player title and file source
     $mediaPlayerTitle.text(episodeTitle)
     $mediaPlayerAudio.attr('src', episodeFileUrl)
-  }
-});
-
-$('audio').mediaelementplayer({
-  success: function(mediaElement, originalNode, instance) {
-
   }
 });

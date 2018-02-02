@@ -106,8 +106,8 @@ GEM
     rack (2.0.4)
     rack-livereload (0.3.16)
       rack
+    rails-assets-howler (2.0.8)
     rails-assets-jquery (3.3.1)
-    rails-assets-mediaelement (4.2.8)
     rails-assets-vanilla-lazyload (10.4.2)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
@@ -137,8 +137,8 @@ DEPENDENCIES
   middleman-livereload (= 3.4.6)
   middleman-sprockets (= 4.1.1)
   nokogiri (= 1.8.2)
+  rails-assets-howler (= 2.0.8)!
   rails-assets-jquery (= 3.3.1)!
-  rails-assets-mediaelement (= 4.2.8)!
   rails-assets-vanilla-lazyload (= 10.4.2)!
 
 RUBY VERSION
