@@ -1,10 +1,10 @@
 //= require jquery
 //= require vanilla-lazyload
 
-var myLazyLoad = new LazyLoad();
+new LazyLoad();
 
 $('.episodes h3').click(function(evnt) {
-  const $h3 = $(evnt.target);
+  var $h3 = $(evnt.target);
 
   if ($h3.hasClass('active')) {
     // deactivate all post episode items and episode sections
