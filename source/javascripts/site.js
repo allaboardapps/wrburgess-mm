@@ -1,7 +1,19 @@
 //= require jquery
 //= require vanilla-lazyload
 
-var myLazyLoad = new LazyLoad();
+let loadDeferredStyles = function() {
+let addStylesNode = document.getElementById("deferred-styles");
+let replacement = document.createElement("div");
+replacement.innerHTML = addStylesNode.textContent;
+document.body.appendChild(replacement)
+addStylesNode.parentElement.removeChild(addStylesNode);
+};
+let raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+  window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+else window.addEventListener('load', loadDeferredStyles);
+
+let myLazyLoad = new LazyLoad();
 
 $('.episodes h3').click(function(evnt) {
   const $h3 = $(evnt.target);
