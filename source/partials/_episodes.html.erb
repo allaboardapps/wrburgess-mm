@@ -21,19 +21,19 @@
     <ul class="links">
       <li>
         <a href="#listen" class="listen">
-          <%= image_tag("headphones_icon.svg", width: "20", height: "20", alt: "Headphones Icon", title: "Listen to the podcast") %>
+          <img data-src='<%= image_path("headphones_icon.svg") %>' width="20" height="20" alt="Headphones Icon" title="Listen to the podcast" />
           Listen
         </a>
       </li>
       <li>
         <a href="<%= cdn_file_url(article.data.audio_file_name) %>" class="webpage" download>
-          <%= image_tag("download_icon.svg", width: "20", height: "20", alt: "Download Icon", title: "Download the Episode") %>
+          <img data-src='<%= image_path("download_icon.svg") %>' width="20" height="20" alt="Download Icon" title="Download the Episode" />
           Download
         </a>
       </li>
       <li>
         <a href="<%= article.url %>" class="webpage">
-          <%= image_tag("webpage_icon.svg", width: "20", height: "20", alt: "Website Icon", title: "View the Episode Page") %>
+          <img data-src='<%= image_path("webpage_icon.svg") %>' width="20" height="20" alt="Website Icon" title="View the Episode Page" />
           Show Notes / Transcript
         </a>
       </li>
