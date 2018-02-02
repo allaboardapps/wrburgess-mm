@@ -1,19 +1,19 @@
 //= require jquery
 //= require vanilla-lazyload
 
-let loadDeferredStyles = function() {
-let addStylesNode = document.getElementById("deferred-styles");
-let replacement = document.createElement("div");
-replacement.innerHTML = addStylesNode.textContent;
-document.body.appendChild(replacement)
-addStylesNode.parentElement.removeChild(addStylesNode);
+var loadDeferredStyles = function() {
+  var addStylesNode = document.getElementById("deferred-styles");
+  var replacement = document.createElement("div");
+  replacement.innerHTML = addStylesNode.textContent;
+  document.body.appendChild(replacement)
+  addStylesNode.parentElement.removeChild(addStylesNode);
 };
-let raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
   window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
 else window.addEventListener('load', loadDeferredStyles);
 
-let myLazyLoad = new LazyLoad();
+var myLazyLoad = new LazyLoad();
 
 $('.episodes h3').click(function(evnt) {
   const $h3 = $(evnt.target);
@@ -28,13 +28,13 @@ $('.episodes h3').click(function(evnt) {
     $('.episode-body').removeClass('active');
 
     // get elements and data points
-    const $mediaPlayerTitle = $('.media-player h3');
-    const $mediaPlayerAudio = $('.media-player audio');
-    const $h3 = $(evnt.target);
-    const episodeId = $h3.data('id');
-    const episodeFileUrl = $h3.data('file-src');
-    const episodeTitle = $h3.text();
-    const $episode = $('.episode-body[data-id="' + episodeId + '"]');
+    var $mediaPlayerTitle = $('.media-player h3');
+    var $mediaPlayerAudio = $('.media-player audio');
+    var $h3 = $(evnt.target);
+    var episodeId = $h3.data('id');
+    var episodeFileUrl = $h3.data('file-src');
+    var episodeTitle = $h3.text();
+    var $episode = $('.episode-body[data-id="' + episodeId + '"]');
 
     // activate episode list item and episode section
     $h3.addClass('active');
