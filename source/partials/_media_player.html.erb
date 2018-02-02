@@ -3,7 +3,6 @@
 <a id="listen"></a>
 <h2>Listen</h2>
 <h3><%= "Episode #{article.data.id}: #{article.title}" %></h3>
-<audio controls preload="auto">
-  <source src="<%= cdn_file_url(article.data.audio_file_name) %>" type="audio/mpeg">
+<audio controls preload="auto" src="<%= cdn_file_url(article.data.audio_file_name) %>">
   Your browser does not support the audio element.
 </audio>

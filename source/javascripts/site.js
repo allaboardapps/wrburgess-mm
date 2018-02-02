@@ -1,6 +1,5 @@
 //= require jquery
 //= require vanilla-lazyload
-//= require howler
 
 var myLazyLoad = new LazyLoad();
 
