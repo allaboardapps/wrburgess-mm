@@ -108,6 +108,7 @@ GEM
       rack
     rails-assets-jquery (3.3.1)
     rails-assets-mediaelement (4.2.8)
+    rails-assets-vanilla-lazyload (10.4.2)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -138,6 +139,7 @@ DEPENDENCIES
   nokogiri (= 1.8.2)
   rails-assets-jquery (= 3.3.1)!
   rails-assets-mediaelement (= 4.2.8)!
+  rails-assets-vanilla-lazyload (= 10.4.2)!
 
 RUBY VERSION
    ruby 2.4.1p111

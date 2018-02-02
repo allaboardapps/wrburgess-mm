@@ -1,12 +1,8 @@
 //= require jquery
 //= require mediaelement
+//= require vanilla-lazyload
 
-[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
-  img.setAttribute('src', img.getAttribute('data-src'));
-  img.onload = function() {
-    img.removeAttribute('data-src');
-  };
-});
+var myLazyLoad = new LazyLoad();
 
 $('.episodes h3').click(function(evnt) {
   const $h3 = $(evnt.target);
