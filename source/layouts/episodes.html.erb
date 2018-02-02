@@ -9,7 +9,10 @@
         <%= partial "partials/subscribe" %>
       </div>
       <h2>Listen</h2>
-      <audio src="<%= cdn_file_url(current_page.data.audio_file_name) %>" preload="auto" width="100%"></audio>
+      <audio controls preload="auto">
+        <source src="<%= cdn_file_url(current_page.data.audio_file_name) %>" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
       <h2>Show Details</h2>
       <div class="pub-date">
         <span class="label">Episode:</span>&nbsp;
