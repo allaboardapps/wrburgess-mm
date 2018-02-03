@@ -1,7 +1,7 @@
 ---
 id: 8
 title: How do you choose between self, managed, cloud, or serverless hosting?
-date: 2018/02/05 08:00:00AM
+date: 2018/02/03 12:00:00PM
 audio_file_name: cto_think_episode_0008.mp3
 soundcloud_link: 'http://feeds.soundcloud.com/stream/393990927-cto-think-episode-8-how-do-you-choose-between-self-managed-cloud-or-serverless-hosting.mp3'
 guid: 'https://s3.amazonaws.com/cto-think-podcast-assets/cto_think_episode_0008.mp3'
@@ -44,7 +44,7 @@ READMORE
 * [Netlify - app hosting](https://www.netlify.com)
 * [Wes Bos - tutorial producer](http://wesbos.com/)
 * Don recommends a list called the Inc 5000 [Inc 5000 Apply Guide](https://www.inc.com/apply/guide)
-* Randy recommends Stephen Grider, an excellent tech tutorial producer [Stephen Grider](https://www.udemy.com/user/sgslo/)
+* Randy recommends [Stephen Grider](https://www.udemy.com/user/sgslo/), an excellent tech tutorial producer
 * Patreon: [CTO Think Podcast is creating Episode Transcripts for Accessiblity](https://www.patreon.com/ctothink)
 
 #### Closing
