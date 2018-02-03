@@ -27,9 +27,7 @@ xml.rss(
       xml.itunes :name, config[:site_name]
       xml.itunes :email, config[:site_email]
     end
-    xml.itunes :category, text: "Technology" do
-      xml.itunes :category, text: "Tech News"
-    end
+    xml.itunes :category, text: "Technology"
     xml.itunes :category, text: "Business" do
       xml.itunes :category, text: "Management & Marketing"
     end
