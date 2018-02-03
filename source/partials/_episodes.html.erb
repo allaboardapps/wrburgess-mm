@@ -18,19 +18,13 @@
     <div class="file-size">
       <span class="label">File Size:</span> <%= article.data.file_size_bytes/1000000 %> MB
     </div>
+    <div class="episode-content">
+      <%= article.summary %>
+    </div>
+    <audio controls src="<%= cdn_file_url(article.data.audio_file_name) %>">
+      Your browser does not support the audio element.
+    </audio>
     <ul class="links">
-      <li>
-        <a href="#listen" class="listen">
-          <img data-src='<%= image_path("headphones_icon.svg") %>' width="20" height="20" alt="Headphones Icon" title="Listen to the podcast" />
-          Listen
-        </a>
-      </li>
-      <li>
-        <a href="<%= cdn_file_url(article.data.audio_file_name) %>" class="webpage" download>
-          <img data-src='<%= image_path("download_icon.svg") %>' width="20" height="20" alt="Download Icon" title="Download the Episode" />
-          Download
-        </a>
-      </li>
       <li>
         <a href="<%= article.url %>" class="webpage">
           <img data-src='<%= image_path("webpage_icon.svg") %>' width="20" height="20" alt="Website Icon" title="View the Episode Page" />
@@ -38,8 +32,5 @@
         </a>
       </li>
     </ul>
-    <div class="episode-content">
-      <%= article.summary %>
-    </div>
   </div>
 <% end %>

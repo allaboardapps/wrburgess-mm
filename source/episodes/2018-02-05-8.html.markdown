@@ -1,17 +1,17 @@
 ---
 id: 8
-title: What criteria do you use for self, managed, cloud, or serverless hosting?
+title: How do you choose between self, managed, cloud, or serverless hosting?
 date: 2018/02/05 08:00:00AM
 audio_file_name: cto_think_episode_0008.mp3
-soundcloud_link: 'http://feeds.soundcloud.com/x'
-guid: 'http://feeds.soundcloud.com/x'
+soundcloud_link: 'http://feeds.soundcloud.com/stream/393990927-cto-think-episode-8-how-do-you-choose-between-self-managed-cloud-or-serverless-hosting.mp3'
+guid: 'https://s3.amazonaws.com/cto-think-podcast-assets/cto_think_episode_0008.mp3'
 duration: '00:40:38'
 file_size_bytes: 47919923
 file_type: audio/mpeg
 keywords: self-hosted, managed hosting, cloud hosting, serverless, aws, google cloud, azure, cto, management
 explicit: no
 block: no
-published: false
+published: true
 ---
 
 How do you choose the best hosting options for your product or firm? This week, we discuss the thinking in a choice between self-hosting, managed hosting, cloud options, and the new buzz word: "serverless".
@@ -49,16 +49,18 @@ READMORE
 
 #### Closing
 
-Thanks for listening to the [CTO Think](https://www.ctothink.com) Podcast. If you liked what you heard, please share a link to the podcast with your friends.  
-
-Reviews on Apple iTunes are always appreciated and help us spread the word about the podcast.  
-
-Show music is Dumpster Dive by [Marc Walloch](http://marcwalloch.com/), licensed by [PremiumBeat.com](https://www.premiumbeat.com)  
+Thanks for listening to the [CTO Think](https://www.ctothink.com) Podcast.  
 
 Shownotes and previous episodes can be found on our website at [www.ctothink.com](https://www.ctothink.com/)  
 
+[Reviews on Apple iTunes](https://itunes.apple.com/us/podcast/cto-think/id1331281544) are always appreciated and help promote the show.  
+
+[Patreon contributions](https://www.patreon.com/ctothink) help us to produce transcripts, which allow people that are deaf or hard-of-hearing to access the show.  
+
 For questions, comments, or things you'd like to hear on future shows, please email us at [hello@ctothink.com](mailto:hello@ctothink.com)  
 
-For notifications of future episodes, please sign up to the CTO Think newsletter on [www.ctothink.com](https://www.ctothink.com/)  
+Show music is Dumpster Dive by [Marc Walloch](http://marcwalloch.com/), licensed by [PremiumBeat.com](https://www.premiumbeat.com)  
 
-We'll keep talking next week!  
+Voiceover work by [MeganVoices.com](http://www.meganvoices.com)  
+
+You'll hear from us next week!  
