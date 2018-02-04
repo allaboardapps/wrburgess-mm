@@ -1,0 +1,26 @@
+<% wrap_layout :layout do %>
+  <div class="page">
+    <header>
+      <%= partial "partials/header" %>
+    </header>
+    <div class="content post">
+      <h1><%= current_page.title %></h1>
+      <div class="pub-date">
+        <span class="label">Published:</span>&nbsp;
+        <%= current_page.date.strftime("%A, %B %e, %Y") %>
+      </div>
+      <div class="duration">
+        <span class="label">Duration:</span>&nbsp;
+        <%= current_page.data.duration %>
+      </div>
+      <article>
+        <%= current_page.body %>
+      </article>
+    </div><!-- /.content .episode -->
+    <footer>
+      <%= partial "partials/footer" %>
+    </footer>
+  </div><!-- /.page -->
+<% end %>
+
+

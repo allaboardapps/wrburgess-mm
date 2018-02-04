@@ -1,0 +1,11 @@
+<h2>Blog Posts</h2>
+<ul>
+  <% blog.articles.each_with_index do |article, index| %>
+  <li>
+    <a href="<%= article.url %>"><%= article.title %></a>
+    <div class="post-content">
+      <%= article.summary %>
+    </div>
+  </li>
+  <% end %>
+</ul>

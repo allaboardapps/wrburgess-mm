@@ -7,15 +7,13 @@ Time.zone = "America/New_York"
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 # Global Variables
-set :site_description, "A pragmatic podcast about leadership, product dev, and tech decisions between two recovering Chief Technology Officers."
-set :site_name, "CTO Think"
-set :site_acronym, "CTOT"
-set :site_email, "hello@ctothink.com"
-set :site_url, "https://www.ctothink.com"
-set :cdn_url, "https://s3.amazonaws.com/cto-think-podcast-assets"
-set :unsafe_cdn_url, "http://s3.amazonaws.com/cto-think-podcast-assets"
-set :site_copyright, "© 2017-2018 CTO Think. All Rights Reserved."
-set :ga_id, "UA-111873195-1"
+set :site_description, "I'm Randy Burgess, a developer, manager, instructor, and podcaster based out of Chicago."
+set :site_name, "Randy Burgess"
+set :site_acronym, "RB"
+set :site_email, "wrburgess@wrburgess.com"
+set :site_url, "https://www.wrburgess.com"
+set :site_copyright, "© 1998-2018 Randy Burgess. All Rights Reserved."
+set :ga_id, "UA-822080-24"
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
@@ -62,9 +60,9 @@ configure :build do
 end
 
 activate :blog do |blog|
-  blog.sources = "episodes/{year}-{month}-{day}-{id}.html"
-  blog.permalink = "episodes/{year}-{month}-{day}-{id}.html"
-  blog.layout = "episodes"
+  blog.sources = "posts/{year}-{month}-{day}-{id}.html"
+  blog.permalink = "posts/{year}-{month}-{day}-{id}.html"
+  blog.layout = "posts"
   blog.summary_separator = /READMORE/
 end
 
@@ -82,14 +80,6 @@ end
 set(:port, 3000)
 
 helpers do
-  def cdn_file_url(file_name)
-    "#{config[:cdn_url]}/#{file_name}"
-  end
-
-  def unsafe_cdn_file_url(file_name)
-    "#{config[:unsafe_cdn_url]}/#{file_name}"
-  end
-
   def image_url(file_name)
     "#{config[:site_url]}/images/#{file_name}"
   end
