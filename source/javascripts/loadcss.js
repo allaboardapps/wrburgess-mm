@@ -1,5 +1,5 @@
 (function( w ){
-  "use strict";
+  'use strict';
   // rel=preload support test
   if( !w.loadCSS ){
     w.loadCSS = function(){};
@@ -11,7 +11,7 @@
   rp.support = (function(){
     var ret;
     try {
-      ret = w.document.createElement( "link" ).relList.supports( "preload" );
+      ret = w.document.createElement( 'link' ).relList.supports( 'preload' );
     } catch (e) {
       ret = false;
     }
@@ -24,7 +24,7 @@
   // then change that media back to its intended value on load
   rp.bindMediaToggle = function( link ){
     // remember existing media attr for ultimate state, or default to 'all'
-    var finalMedia = link.media || "all";
+    var finalMedia = link.media || 'all';
 
     function enableStylesheet(){
       link.media = finalMedia;
@@ -32,16 +32,16 @@
 
     // bind load handlers to enable media
     if( link.addEventListener ){
-      link.addEventListener( "load", enableStylesheet );
+      link.addEventListener( 'load', enableStylesheet );
     } else if( link.attachEvent ){
-      link.attachEvent( "onload", enableStylesheet );
+      link.attachEvent( 'onload', enableStylesheet );
     }
 
     // Set rel and non-applicable media type to start an async request
     // note: timeout allows this to happen async to let rendering continue in IE
     setTimeout(function(){
-      link.rel = "stylesheet";
-      link.media = "only x";
+      link.rel = 'stylesheet';
+      link.media = 'only x';
     });
     // also enable media after 3 seconds,
     // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
@@ -54,13 +54,13 @@
     if( rp.support() ){
       return;
     }
-    var links = w.document.getElementsByTagName( "link" );
+    var links = w.document.getElementsByTagName( 'link' );
     for( var i = 0; i < links.length; i++ ){
       var link = links[ i ];
       // qualify links to those with rel=preload and as=style attrs
-      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
+      if( link.rel === 'preload' && link.getAttribute( 'as' ) === 'style' && !link.getAttribute( 'data-loadcss' ) ){
         // prevent rerunning on link
-        link.setAttribute( "data-loadcss", true );
+        link.setAttribute( 'data-loadcss', true );
         // bind listeners to toggle media back
         rp.bindMediaToggle( link );
       }
@@ -75,12 +75,12 @@
     // rerun poly on an interval until onload
     var run = w.setInterval( rp.poly, 500 );
     if( w.addEventListener ){
-      w.addEventListener( "load", function(){
+      w.addEventListener( 'load', function(){
         rp.poly();
         w.clearInterval( run );
       } );
     } else if( w.attachEvent ){
-      w.attachEvent( "onload", function(){
+      w.attachEvent( 'onload', function(){
         rp.poly();
         w.clearInterval( run );
       } );
@@ -89,10 +89,10 @@
 
 
   // commonjs
-  if( typeof exports !== "undefined" ){
+  if( typeof exports !== 'undefined' ){
     exports.loadCSS = loadCSS;
   }
   else {
     w.loadCSS = loadCSS;
   }
-}( typeof global !== "undefined" ? global : this ) );
+}( typeof global !== 'undefined' ? global : this ) );
