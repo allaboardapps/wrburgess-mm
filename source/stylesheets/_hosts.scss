@@ -1,7 +1,7 @@
 .hosts {
   display: grid;
   grid-template-columns: 40px 125px 1fr 125px 1fr;
-  grid-template-rows: 120px 170px 150px;
+  grid-template-rows: 120px 190px 190px;
 
   @media screen and (min-device-width: 450px) {
     grid-template-columns: 125px 1fr 125px 1fr;

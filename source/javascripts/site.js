@@ -1,3 +1,4 @@
+//= loadcss
 //= require jquery
 //= require vanilla-lazyload
 
