@@ -7,7 +7,7 @@ Time.zone = "America/New_York"
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 # Global Variables
-set :site_description, "I'm Randy Burgess, a developer, manager, instructor, and podcaster based out of Chicago."
+set :site_description, "I'm Randy Burgess, a developer / manager / instructor / podcaster based out of Chicago."
 set :site_name, "Randy Burgess"
 set :site_acronym, "RB"
 set :site_email, "wrburgess@wrburgess.com"
