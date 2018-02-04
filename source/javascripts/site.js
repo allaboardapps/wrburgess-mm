@@ -19,9 +19,13 @@ $('.episodes h3').click(function(evnt) {
     var $h3 = $(evnt.target);
     var episodeId = $h3.data('id');
     var $episode = $('.episode-body[data-id="' + episodeId + '"]');
+    var $audio = $episode.find('audio');
+    var filePath = $h3.data('file-src');
 
     // activate episode list item and episode section
     $h3.addClass('active');
     $episode.addClass('active');
+    $audio.attr('src', filePath);
+    $audio.attr('preload', 'auto');
   }
 });

@@ -5,10 +5,7 @@
     data-file-src="<%= cdn_file_url(article.data.audio_file_name) %>">
     <%= "Episode #{article.data.id}: #{article.title}" %>
   </h3>
-  <div
-    class="episode-body"
-    data-id="<%= article.data.id %>"
-  >
+  <div class="episode-body" data-id="<%= article.data.id %>">
     <div class="pub-date">
       <span class="label">Published:</span> <%= article.date.strftime("%A, %B %e, %Y") %>
     </div>
@@ -21,7 +18,7 @@
     <div class="episode-content">
       <%= article.summary %>
     </div>
-    <audio controls src="<%= cdn_file_url(article.data.audio_file_name) %>">
+    <audio controls>
       Your browser does not support the audio element.
     </audio>
     <ul class="links">
