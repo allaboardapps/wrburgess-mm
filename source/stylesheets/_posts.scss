@@ -1,5 +1,22 @@
 .posts {
 
+  ul {
+    padding-left: 20px;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .post-title {
+    margin-bottom: 20px;
+
+    a {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
+
   audio {
     margin-bottom: 5px;
     margin-left: 10px;
@@ -23,7 +40,7 @@
     }
   }
 
-  .episode-body {
+  .post-body {
     display: none;
 
     p {

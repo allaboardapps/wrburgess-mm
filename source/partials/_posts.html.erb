@@ -2,7 +2,12 @@
 <ul>
   <% blog.articles.each_with_index do |article, index| %>
   <li>
-    <a href="<%= article.url %>"><%= article.title %></a>
+    <div class="post-title">
+      <a href="<%= article.url %>"><%= article.title %></a>
+    </div>
+    <div class="post-date">
+      <%= article.date.strftime("%A, %B %e, %Y") %>
+    </div>
     <div class="post-content">
       <%= article.summary %>
     </div>
