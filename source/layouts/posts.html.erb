@@ -9,10 +9,12 @@
         <span class="label">Published:</span>&nbsp;
         <%= current_page.date.strftime("%A, %B %e, %Y") %>
       </div>
-      <div class="duration">
-        <span class="label">Duration:</span>&nbsp;
-        <%= current_page.data.duration %>
-      </div>
+      <% if current_page.data.updated_at.present? %>
+        <div class="pub-date">
+          <span class="label">Updated:</span>&nbsp;
+          <%= Time.new(current_page.data.updated_at).strftime("%A, %B %e, %Y") %>
+        </div>
+      <% end %>
       <article>
         <%= current_page.body %>
       </article>

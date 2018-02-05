@@ -3,7 +3,7 @@ id: 1
 keywords: activestorage, ruby on rails, postgresql, uuid, Randy Burgess
 title: Using ActiveStorage with UUIDs on Rails 5.2 and PostgreSQL
 date: 2018/02/03 09:00:00AM
-ttr: '5 min'
+updated_at: 2018/02/05 01:00:00PM
 block: 'no'
 published: true
 ---
@@ -101,7 +101,7 @@ Thus, the changes above explicitly tell Rails to use UUIDs instead of the tradit
 
 ## Feedback
 
-If you have problems with these instructions, please shoot me an email and I'll see what's up! [randy@allaboardapps.com](mailto:randy@allaboardapps.com)
+If you have problems with these instructions, please [shoot me an email](mailto:randy@allaboardapps.com) or [create an issue on the source repo](https://github.com/wrburgess/active_storage_with_uuids/issues) and I'll see what's up!
 
 ## Notes
 
