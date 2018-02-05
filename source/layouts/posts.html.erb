@@ -12,7 +12,7 @@
       <% if current_page.data.updated_at.present? %>
         <div class="pub-date">
           <span class="label">Updated:</span>&nbsp;
-          <%= Time.new(current_page.data.updated_at).strftime("%A, %B %e, %Y") %>
+          <%= Time.parse(current_page.data.updated_at).strftime("%A, %B %e, %Y") %>
         </div>
       <% end %>
       <article>
