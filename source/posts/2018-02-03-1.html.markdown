@@ -8,14 +8,20 @@ block: 'no'
 published: true
 ---
 
-Most of the tutorials out there in anticipation of the Rails 5.2 launch, which includes the very attractive new feature, ActiveStorage, show you how to utilize ActiveStorage with the standard sequential model ids (integers). But what if you use UUIDs for the unique keys on your Rails models? In this short tutorial I show you how to get Rails 5.2, ActiveStorage, and PostgreSQL uuids working.
+How to get Rails 5.2, ActiveStorage, PostgreSQL and UUIDs working together with some small adjustments.
 
 READMORE
 
-This is how you do it.
+Most of the tutorials out there, which have been posted in anticipation of the Rails 5.2 launch, show you how to utilize ActiveStorage with the standard sequential model IDs (integers). But what if you want to use UUIDs for the unique keys on your Rails models?  
+
+In this short tutorial I show you how to get Rails 5.2, ActiveStorage, and PostgreSQL uuids working.  
 
 #### Notes
 
+* Credit goes to Evil Martian's Andy Barnov and Vladimir Dementyev for their work on this post, which got me started: [Rails 5.2:
+Active Storage and beyond](https://evilmartians.com/chronicles/rails-5-2-active-storage-and-beyond)
+* There's derivate credit that goes to [Mike Gunderloy](https://afreshcup.com/about/) for an earlier post on the same subject: [Active Storage Samples](https://afreshcup.com/home/2017/07/23/activestorage-samples)
+* The official docs - [Rails Guides: Active Storage Overview](http://edgeguides.rubyonrails.org/active_storage_overview.html)
 
 #### Other things to check out
 
