@@ -1,23 +1,37 @@
 footer {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: auto auto;
   justify-items: center;
   margin-top: 60px;
+
+  @media screen and (min-device-width: 960px) {
+    grid-template-rows: 100px 100px;
+  }
 
   .social {
     grid-column-start: 1;
     grid-column-end: 1;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 80%;
+
+    @media screen and (min-device-width: 960px) {
+      width: 100%;
+    }
 
     li {
       display: inline-block;
       list-item-style: none;
-      padding-right: 20px;
+      padding-bottom: 30px;
+      padding-right: 30px;
     }
   }
 
   .copyright {
     grid-column-start: 1;
     grid-column-end: 1;
+    margin-bottom: 20px;
+    text-align: center;
   }
 }
