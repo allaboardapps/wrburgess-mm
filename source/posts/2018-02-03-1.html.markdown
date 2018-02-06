@@ -12,9 +12,11 @@ How to make Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL 9+ work toget
 
 READMORE
 
+## What's This About?
+
 Most of the ActiveStorage tutorials out there in the blogosphere, which have been posted in anticipation of the Rails 5.2.0rc1 stable launch, show you how to utilize ActiveStorage with the standard sequential model IDs (integers). But what if you want to use UUIDs for the unique keys on your Rails models?  
 
-In this short tutorial I will show you how to get Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL working.  
+In this short walkthrough, I will show you how to get Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL working together.  
 
 ## Installing Rails 5.2.0rc1
 
@@ -24,13 +26,13 @@ I don't need to repeat the same basic setups that have been written before, so I
 Active Storage and beyond](https://evilmartians.com/chronicles/rails-5-2-active-storage-and-beyond)
 * [Rails Guides: Active Storage Overview](http://edgeguides.rubyonrails.org/active_storage_overview.html)
 
-Bottom line, you need to install rails with `rails _5.2.0.rc1_ new app_name` and then run *bundle install* for your gems
+Bottom line, you need to install rails with `rails _5.2.0.rc1_ new app_name` and then run `bundle install` for your gems
 
 ## Switch from Sqlite to PostgreSQL
 
 Next, tell Rails to utilize PostgreSQL instead of sqlite: [Ruby on Rails Switch From Sqlite3 to Postgres](https://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/)
 
-Checking out your *Gemfile* file:
+Checking out your `Gemfile` file:
 
     # Use sqlite3 as the database for Active Record
     # gem 'sqlite3'
@@ -39,7 +41,7 @@ Checking out your *Gemfile* file:
 
 [Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/Gemfile)  
 
-Checking out your *database.yml* file:
+Checking out your `database.yml` file:
 
     development: &default
       adapter: postgresql
@@ -72,7 +74,7 @@ Also, you may want to reference this post for more about the initial setup of UU
 
 ## Changes to Tables
 
-Make changes to the initial setup of both *active_storage_blobs* and *active_storage_attachments* tables to utilize the uuid datatypes for their model id fields:
+Make changes to the initial setup of both `active_storage_blobs` and `active_storage_attachments` tables to utilize the uuid datatypes for their model id fields:
 
     create_table :active_storage_blobs, id: :uuid, default: -> { "gen_random_uuid()" } do |t|
       ...
@@ -84,7 +86,7 @@ Make changes to the initial setup of both *active_storage_blobs* and *active_sto
 
 [Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/db/migrate/20180204011656_create_active_storage_tables.active_storage.rb)
 
-Do the same for your other models that will have associated ActiveStorage instances. In this case, I'm using a generic *Post* model:
+Do the same for your other models that will have associated ActiveStorage instances. In this case, I'm using a generic `Post` model:
 
     create_table "posts", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
       ...
@@ -94,9 +96,9 @@ Do the same for your other models that will have associated ActiveStorage instan
 
 ## Changes to Fields
 
-The above changes simply cover the setup of the tables. Now we'll make changes to the actual *t.references* fields which will break our UUID approach, by default:
+The above changes simply cover the setup of the tables. Now we'll make changes to the actual `t.references` fields which will break our UUID approach, by default:
 
-Change your *active_storage_attachments* table from this:
+Change your `active_storage_attachments` table from this:
 
     create_table :active_storage_attachments do |t|
       t.string     :name,     null: false
@@ -124,7 +126,7 @@ To this:
 
 ## Closing Remarks
 
-Yep, changing the migrations is mostly all there is to it. The biggest issue you're overcoming with these changes is that Rails does not understand utilizing UUIDs via the default generators, and the *t.reference* helpers and will incorrectly (for our purposes) set up the polymorphic and association IDs as normal, sequential integers.  
+Yep, changing the migrations is mostly all there is to it. The biggest issue you're overcoming with these changes is that Rails does not understand utilizing UUIDs via the default generators, and the `t.reference` helpers and will incorrectly (for our purposes) set up the polymorphic and association IDs as normal, sequential integers.  
 
 Thus, the changes above explicitly tell Rails to use UUIDs instead of the traditional IDs for the necessary associations.  
 
