@@ -1,3 +1,4 @@
+# encoding: utf-8
 require "tzinfo"
 Time.zone = "America/New_York"
 
