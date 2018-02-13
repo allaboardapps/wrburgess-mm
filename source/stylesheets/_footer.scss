@@ -20,11 +20,26 @@ footer {
       width: 100%;
     }
 
-    li {
-      display: inline-block;
+    ul {
       list-item-style: none;
-      padding-bottom: 30px;
-      padding-right: 30px;
+
+      li {
+        display: inline-block;
+        padding-bottom: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .legal {
+
+    ul {
+      list-item-style: none;
+
+      li {
+        display: inline-block;
+        padding-right: 20px;
+      }
     }
   }
 
