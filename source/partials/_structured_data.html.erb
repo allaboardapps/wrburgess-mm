@@ -17,6 +17,20 @@
         "https://www.linkedin.com/in/wrburgess",
         "https://twitter.com/wrburgess"
       ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        <% blog.articles.each_with_index do |post, index| %>
+          {
+            "@type":"ListItem",
+            "position": <%= index + 1 %>,
+            "name": "<%= post.title %>",
+            "url": "<%= "#{config[:site_url]}#{post.url}" %>"
+          }<%= "," if index < (blog.articles.size - 1) %>
+        <% end %>
+      ]
     }]
   <% else %>
     [{
