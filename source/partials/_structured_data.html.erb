@@ -1,0 +1,77 @@
+<script type="application/ld+json">
+  <% if current_page.data.title == "Home" %>
+    [{
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "<%= config[:site_name] %>",
+      "url": "<%= config[:site_url] %>"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Randy Burgess",
+      "url": "http://www.wrburgess.com",
+      "sameAs": [
+        "https://www.facebook.com/wrburgess",
+        "https://instagram.com/wrburgess",
+        "https://www.linkedin.com/in/wrburgess",
+        "https://twitter.com/wrburgess"
+      ]
+    }]
+  <% else %>
+    [{
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "<%= "#{config[:site_url]}#{current_page.url}" %>"
+      },
+      "headline": "<%= current_page.title %>",
+      "image": [
+        "<%= config[:image_url] %>"
+      ],
+      "datePublished": "<%= current_page.date.iso8601 %>",
+      "dateModified": "<%= current_page.date.iso8601 %>",
+      "author": {
+        "@type": "Person",
+        "name": "<%= config[:site_name] %>"
+      },
+      "publisher": {
+        "@context": "http://schema.org",
+        "@type" : "Organization",
+        "name": "<%= config[:site_name] %>",
+        "url" : "<%= config[:site_url] %>",
+        "email": "<%= config[:site_email] %>",
+        "telephone": "<%= config[:site_email] %>",
+        "logo": {
+          "@type": "ImageObject",
+          "caption": "<%= config[:site_name] %> Logo",
+          "url": "<%= config[:image_url] %>"
+        }
+      },
+      "description": "<%= current_page.data.short_description %>"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "<%= config[:site_url] %>",
+            "name": "<%= config[:site_name] %>"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "<%= "#{config[:site_url]}#{current_page.url}" %>",
+            "name": "<%= current_page.title %>"
+          }
+        }
+      ]
+    }]
+  <% end %>
+</script>
