@@ -80,7 +80,7 @@ if defined? RailsAssets
   end
 end
 
-set(:port, 3000)
+set(:port, 8080)
 
 helpers do
   def image_url(file_name)

@@ -1,0 +1,28 @@
+---
+id: 2
+keywords: compensation, remote, location, payroll, HR, Randy Burgess
+title: Different pay for different locales
+date: 2018/02/23 09:00:00AM
+updated_at: 2018/02/23
+block: 'no'
+published: false
+short_description: Different pay for different locales.
+---
+Different pay for different locales
+READMORE
+
+Merit: Is it unfair, on principal, to pay people at the same firm different amounts for the same work/productivity? This seems to be your focus.
+
+Competitive: Will the employees that are getting paid less leave to find firms that pay everyone the same, regardless of location? This is a risk to your team's productivity.
+
+Legal: Can an argument be made that it's illegal (like EEOC-related) to pay people differently for same work, different location? (I have no idea)
+
+Strategically: Firms outsource work to different contractors and teams all the time to have work done at different levels of labor costs. In the case of full-time employees, I'm not sure how this fits for how your firm manages its workforce.
+
+Personally, I look at folks on my teams and try to compensate based on what they mean to the team and the cost of losing them. I don't care about their location, whatsoever, unless their location factors into their productivity. I don't find that HR departments care about much except for numbers and the means to meet budgets.
+
+## Other things to check out
+
+* My company: [All Aboard Apps](https://www.allaboardapps.com)
+* My podcast: [CTO Think](https://www.ctothink.com)
+* My upcoming product: [HOA Done](https://www.hoadone.com)

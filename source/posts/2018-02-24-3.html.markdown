@@ -1,0 +1,50 @@
+---
+id: 2
+keywords: coding challenges, interviewing, hiring, whiteboards, puzzles, Randy Burgess
+title: Heck, no, I'm not taking a coding challenge to work at your company
+date: 2018/02/24 09:00:00AM
+updated_at: 2018/02/24
+block: 'no'
+published: false
+short_description: Different pay for different locales.
+---
+Heck, no, I'm not taking a coding challenge to work at your company
+READMORE
+
+Max:
+
+You're right. The risk for a company hiring at your stage is huge. The cost for bad hires is steeper than average.
+
+First, let's separate the idea that a coding challenge (a puzzle, a take-home project, a whiteboard exercise) is the only way to figure out if someone knows how to write software. A coding challenge is simply the lowest-cost (i.e. time) method for a manager (Jeff or you) to spend screening candidates in the first stage of a hiring process. If a manager has leverage in a labor market that has a large volume of high-quality, unemployed candidates to choose from, this screening method will probably work to their advantage (saving time).
+
+And in the current labor market, there is an abundance of pre-junior or junior-level bootcamp grads looking for work. A screening process like the one you proposed is expected in a scenario if those are the folks you are trying to hire. Based on our conversation, you mentioned that Zcruit was looking to hire someone that can lead, code, and get stuff done. Those types of folks are not plentiful (in seeking new employment), based on my current view of the market.
+
+When I'm the hiring manager, in an extremely tough labor market of senior, exceptional tech devs, I want to recruit the best people out there. The best people out there are gainfully employed and have a decent amount of demand for their skills. In that case, it's on *me* to convince the best developers that my firm is the best place to work. Wasting the time of these developers with small quizzes and code challenges will prevent many of them from bothering to consider making a leap from their current jobs. Frankly, it's beneath them and a distraction from the real work they are doing.
+
+That all being said, I consider hiring and coaching to be the top two roles necessary for my teams to be successful. For every ace hire I bring in and manage well, they help the team make huge gains. For every dud I hire, we take a few steps back. I'm not saying this just because Zcruit helps coaches recruit or "hire" the best candidates, I'm saying it because Urban Meyer, Ben Weiss, and myself are all trying to hire from a very competitive pool, regardless of the skills involved. Making a top recruit "run a few laps" is not how you get the five-star athletes. Instead, you watch game film... or discuss previous projects with them.
+
+So, my approach to hiring developers usually follows this track:
+
+1) I network within the development community: Meetups, conferences, online message boards, Slack communities, etc to find developers that are willing to talk about their projects, discuss their approach to development, teamwork, etc. When I have discussions with people or see their posted work (blog posts, open source, podcast discussions, speaking at conferences) it goes a long way to knowing if that candidate has the ability to build things. I don't need to find out if they can solve Fizz Buzz or CSV file merger challenges to know they are worth interviewing. References between devs also come out of the woodwork, this way. Map this to sports: high school game tape, summer camps, and coaching visits.
+
+2) I ask the candidate to provide references and I *actually call* the references. It seems odd, but the majority of hiring managers do not call up references and discuss the ability of the candidate to actually conduct work. I usually find out pretty quick if the candidate is great at their job (a discussion about their work ethic unfolds) or they were not highly respected (the reference won't discuss the candidate or simply confirms employment). Mapped to sports: Talking to high school coaches and boosters.
+
+3) I sit down and pair with the candidate to discuss a piece of code that I (the manager) am currently working on. This doesn't require them to code anything, but I want the candidate to show me that we can talk about problems, solutions, and approaches to getting stuff shipped. A person that cannot code cannot come close to talking about software development very long, unless they are a complete b***shitter (pardon), which should have been filtered at the Networking and Reference Check levels, anyways. Mapped to sports: Summer camps and on-campus visits.
+
+The biggest negative about these three steps? They all take a *ton of time* compared to making a developer spend their own time on a code quiz. There's not a magic solution to high-quality hiring and time spent doing it, in my experience. However, the side effect of missing out on qualified candidates, those that refuse to take screener tests, can kill your ability to recruit top developers.
+
+In the end, this doesn't mean that firms requiring code challenges always fail to hire quality developers. Lots of firms use this technique to hire their engineers, and lots of devs take the tests. But I prefer to hire the folks that know they don't need to.
+
+Again, you weren't talking to me about just any dev role. If you're going to compensate me for the numbers we discussed, you need someone that can work with all sorts of stakeholders (investors, executives, managers, designers, engineers, clients, and users), hire and coach green-level, junior, and senior devs, and also ship software by hand. A candidate that can nail those responsibilities isn't one to waste time doing push-ups to prove they can take the field.
+
+The last thing to note, is that while I said I don't want to take the time to do a coding quiz, I did take the time to write this long-arse reply. That logic, I can't really explain, but I'll probably refactor this essay into a blog post or something down the road :)
+
+Anyways, I hope that explains my reasoning for, and approach to, building dev teams.
+
+rb
+
+## Other things to check out
+
+* My company: [All Aboard Apps](https://www.allaboardapps.com)
+* My podcast: [CTO Think](https://www.ctothink.com)
+* My upcoming product: [HOA Done](https://www.hoadone.com)

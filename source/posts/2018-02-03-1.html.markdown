@@ -8,9 +8,7 @@ block: 'no'
 published: true
 short_description: How to make Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL 9+ work together with some small adjustments to the standard setup process.
 ---
-
 How to make Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL 9+ work together with some small adjustments to the standard setup process.
-
 READMORE
 
 ## What's This About?
