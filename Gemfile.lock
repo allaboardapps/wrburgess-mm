@@ -9,7 +9,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (8.0.0)
+    autoprefixer-rails (8.1.0.1)
       execjs
     backports (3.11.1)
     builder (3.2.3)
@@ -30,7 +30,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.1)
-    ffi (1.9.21)
+    ffi (1.9.23)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -108,7 +108,7 @@ GEM
       rack
     rails-assets-jquery (3.3.1)
     rails-assets-vanilla-lazyload (10.4.2)
-    rb-fsevent (0.10.2)
+    rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     sass (3.4.25)
