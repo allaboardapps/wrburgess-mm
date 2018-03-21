@@ -4,6 +4,8 @@ Time.zone = "America/New_York"
 
 # redirect "/rss2.xml", to: "/rss.xml"
 
+import_file File.expand_path("_headers", root), "_headers"
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
