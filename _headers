@@ -1,5 +1,5 @@
 /*
-  default-src 'none'; script-src 'self' https:;
+  default-src 'none'; script-src https:;
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
