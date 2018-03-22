@@ -1,5 +1,5 @@
 /*
-  default-src 'none';
+  default-src 'none'; img-src https:;
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
