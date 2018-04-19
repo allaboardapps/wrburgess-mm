@@ -19,6 +19,7 @@ set :site_url, "https://www.wrburgess.com"
 set :site_copyright, "© 1998-2018 Randy Burgess. All Rights Reserved."
 set :ga_id, "UA-822080-24"
 set :image_url, "https://s3.amazonaws.com/cto-think-podcast-assets/randy_burgess_picture.png"
+set :google_site_verification, "C_xNR_BHNO1V5WrzHAaMQROpL7pkRZgV8Tkqlcyep9E"
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
