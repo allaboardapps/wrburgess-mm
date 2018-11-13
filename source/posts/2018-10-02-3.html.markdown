@@ -5,7 +5,7 @@ title: Heck, no, I'm not taking a coding challenge to work at your company
 date: 2018/10/02 09:00:00AM
 updated_at: 2018/11/12 09:00:00PM
 block: 'no'
-published: true
+published: false
 short_description: Using coding tests to hire folks only gets you people that practice coding tests
 ---
 Using coding tests to hire folks only gets you people that practice coding tests
