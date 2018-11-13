@@ -6,9 +6,9 @@ date: 2018/03/01 09:00:00AM
 updated_at: 2018/07/23 01:00:00PM
 block: 'no'
 published: true
-short_description: Different pay for different locales.
+short_description: When you pay people based on different locations, you kill your whole 'merit is the best employment policy' right from the start.
 ---
-Different pay for different locales
+When you pay people based on different locations, you kill your whole 'merit is the best employment policy' right from the start
 READMORE
 
 Merit: Is it unfair, on principal, to pay people at the same firm different amounts for the same work/productivity? This seems to be your focus.
