@@ -2,10 +2,10 @@
 id: 2
 keywords: compensation, remote, location, payroll, HR, Randy Burgess
 title: Different pay for different locales
-date: 2018/02/23 09:00:00AM
-updated_at: 2018/02/23
+date: 2018/03/01 09:00:00AM
+updated_at: 2018/07/23 01:00:00PM
 block: 'no'
-published: false
+published: true
 short_description: Different pay for different locales.
 ---
 Different pay for different locales

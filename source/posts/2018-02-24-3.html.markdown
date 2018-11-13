@@ -2,10 +2,10 @@
 id: 2
 keywords: coding challenges, interviewing, hiring, whiteboards, puzzles, Randy Burgess
 title: Heck, no, I'm not taking a coding challenge to work at your company
-date: 2018/02/24 09:00:00AM
+date: 2018/10/02 09:00:00AM
 updated_at: 2018/11/12 09:00:00PM
 block: 'no'
-published: false
+published: true
 short_description: Different pay for different locales.
 ---
 Heck, no, I'm not taking a coding challenge to work at your company
