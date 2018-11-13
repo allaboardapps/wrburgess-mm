@@ -3,7 +3,7 @@ id: 2
 keywords: coding challenges, interviewing, hiring, whiteboards, puzzles, Randy Burgess
 title: Heck, no, I'm not taking a coding challenge to work at your company
 date: 2018/02/24 09:00:00AM
-updated_at: 2018/02/24
+updated_at: 2018/11/12 09:00:00PM
 block: 'no'
 published: false
 short_description: Different pay for different locales.
@@ -11,13 +11,13 @@ short_description: Different pay for different locales.
 Heck, no, I'm not taking a coding challenge to work at your company
 READMORE
 
-Max:
+Dear [PERSON ASKING ME TO DO A CODE TEST]:
 
 You're right. The risk for a company hiring at your stage is huge. The cost for bad hires is steeper than average.
 
-First, let's separate the idea that a coding challenge (a puzzle, a take-home project, a whiteboard exercise) is the only way to figure out if someone knows how to write software. A coding challenge is simply the lowest-cost (i.e. time) method for a manager (Jeff or you) to spend screening candidates in the first stage of a hiring process. If a manager has leverage in a labor market that has a large volume of high-quality, unemployed candidates to choose from, this screening method will probably work to their advantage (saving time).
+First, let's separate the idea that a coding challenge (a puzzle, a take-home project, a whiteboard exercise) is the only way to figure out if someone knows how to write software. A coding challenge is simply the lowest-cost (i.e. time) method for a manager to spend screening candidates in the first stage of a hiring process. If a manager has leverage in a labor market that has a large volume of high-quality, unemployed candidates to choose from, this screening method will probably work to their advantage (saving time).
 
-And in the current labor market, there is an abundance of pre-junior or junior-level bootcamp grads looking for work. A screening process like the one you proposed is expected in a scenario if those are the folks you are trying to hire. Based on our conversation, you mentioned that Zcruit was looking to hire someone that can lead, code, and get stuff done. Those types of folks are not plentiful (in seeking new employment), based on my current view of the market.
+And in the current labor market, there is an abundance of pre-junior or junior-level bootcamp grads looking for work. A screening process like the one you proposed is expected in a scenario if those are the folks you are trying to hire. Based on our conversation, you mentioned that [YOUR FIRM] was looking to hire someone that can lead, code, and get stuff done. Those types of folks are not plentiful (in seeking new employment), based on my current view of the market.
 
 When I'm the hiring manager, in an extremely tough labor market of senior, exceptional tech devs, I want to recruit the best people out there. The best people out there are gainfully employed and have a decent amount of demand for their skills. In that case, it's on *me* to convince the best developers that my firm is the best place to work. Wasting the time of these developers with small quizzes and code challenges will prevent many of them from bothering to consider making a leap from their current jobs. Frankly, it's beneath them and a distraction from the real work they are doing.
 
@@ -46,5 +46,5 @@ rb
 ## Other things to check out
 
 * My company: [All Aboard Apps](https://www.allaboardapps.com)
-* My podcast: [CTO Think](https://www.ctothink.com)
-* My upcoming product: [HOA Done](https://www.hoadone.com)
+* My podcast: [CTO Think Podcast](https://www.ctothink.com)
+* My other podcast: [This Old App Podcast](https://thisoldapp.online)

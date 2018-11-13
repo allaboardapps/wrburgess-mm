@@ -147,5 +147,5 @@ Active Storage and beyond](https://evilmartians.com/chronicles/rails-5-2-active-
 ## Other things to check out
 
 * My company: [All Aboard Apps](https://www.allaboardapps.com)
-* My podcast: [CTO Think](https://www.ctothink.com)
-* My upcoming product: [HOA Done](https://www.hoadone.com)
+* My podcast: [CTO Think Podcast](https://www.ctothink.com)
+* My other podcast: [This Old App Podcast](https://thisoldapp.online)

@@ -10,13 +10,13 @@ import_file File.expand_path("_headers", root), "_headers"
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 # Global Variables
-set :site_description, "I'm Randy Burgess, a developer / manager / instructor / podcaster based out of Chicago."
+set :site_description, "I'm Randy Burgess, a developer / manager / instructor / podcaster based out of Kansas City."
 set :site_name, "Randy Burgess"
 set :site_acronym, "RB"
 set :site_email, "wrburgess@wrburgess.com"
 set :site_phone, "773-551-6808"
 set :site_url, "https://www.wrburgess.com"
-set :site_copyright, "© 1998-2018 Randy Burgess. All Rights Reserved."
+set :site_copyright, "© 1998-2019 Randy Burgess. All Rights Reserved."
 set :ga_id, "UA-822080-24"
 set :image_url, "https://s3.amazonaws.com/cto-think-podcast-assets/randy_burgess_picture.png"
 set :google_site_verification, "C_xNR_BHNO1V5WrzHAaMQROpL7pkRZgV8Tkqlcyep9E"
@@ -90,4 +90,3 @@ helpers do
     "#{config[:site_url]}/images/#{file_name}"
   end
 end
-
