@@ -1,4 +1,4 @@
-.episodes {
+.presentations {
 
   ul {
     padding-left: 20px;
@@ -16,12 +16,16 @@
     }
   }
 
-  .episode-title {
+  .presentation-title {
     font-weight: bold;
     margin-bottom: 10px;
   }
 
-  .episode-date {
+  .presentation-date {
+    margin-bottom: 10px;
+  }
+
+  .presentation-location {
     margin-bottom: 10px;
   }
 }
