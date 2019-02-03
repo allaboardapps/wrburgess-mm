@@ -1,0 +1,17 @@
+.slides {
+
+  ul {
+    padding-left: 20px;
+    list-style: none;
+
+    li {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+
+      .label {
+        display: block;
+        font-weight: bold;
+      }
+    }
+  }
+}
