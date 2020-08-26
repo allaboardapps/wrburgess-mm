@@ -4,26 +4,27 @@ keywords: activestorage, ruby on rails, postgresql, uuid, Randy Burgess
 title: Using ActiveStorage with UUIDs on Rails 5.2 and PostgreSQL 9+
 date: 2018/02/03 09:00:00AM
 updated_at: 2018/02/05
-block: 'no'
+block: "no"
 published: true
 short_description: How to make Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL 9+ work together with some small adjustments to the standard setup process.
 ---
+
 How to make Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL 9+ work together with some small adjustments to the standard setup process.
 READMORE
 
 ## What's This About?
 
-Most of the ActiveStorage tutorials out there in the blogosphere, which have been posted in anticipation of the Rails 5.2.0rc1 stable launch, show you how to utilize ActiveStorage with the standard sequential model IDs (integers). But what if you want to use UUIDs for the unique keys on your Rails models?  
+Most of the ActiveStorage tutorials out there in the blogosphere, which have been posted in anticipation of the Rails 5.2.0rc1 stable launch, show you how to utilize ActiveStorage with the standard sequential model IDs (integers). But what if you want to use UUIDs for the unique keys on your Rails models?
 
-In this short walkthrough, I will show you how to get Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL working together.  
+In this short walkthrough, I will show you how to get Rails 5.2.0rc1, ActiveStorage, and UUIDs on PostgreSQL working together.
 
 ## Installing Rails 5.2.0rc1
 
 I don't need to repeat the same basic setups that have been written before, so I'll recommend you follow the following posts for those instructions:
 
-* [Rails 5.2:
-Active Storage and beyond](https://evilmartians.com/chronicles/rails-5-2-active-storage-and-beyond)
-* [Rails Guides: Active Storage Overview](http://edgeguides.rubyonrails.org/active_storage_overview.html)
+- [Rails 5.2:
+  Active Storage and beyond](https://evilmartians.com/chronicles/rails-5-2-active-storage-and-beyond)
+- [Rails Guides: Active Storage Overview](http://edgeguides.rubyonrails.org/active_storage_overview.html)
 
 Bottom line, you need to install rails with `rails _5.2.0.rc1_ new app_name` and then run `bundle install` for your gems
 
@@ -38,7 +39,7 @@ Checking out your `Gemfile` file:
     # Use pg, instead
     gem "pg", "0.21.0"
 
-[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/Gemfile)  
+[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/Gemfile)
 
 Checking out your `database.yml` file:
 
@@ -56,20 +57,20 @@ Checking out your `database.yml` file:
       username: username
       database: five-two_test
 
-[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/config/database.yml)  
+[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/config/database.yml)
 
 ## Changes to ActiveStorage migrations
 
-After you run the `rails active_storage:install` command, you need to jump in and change a few things on the generated migrations before running them.  
+After you run the `rails active_storage:install` command, you need to jump in and change a few things on the generated migrations before running them.
 
 You'll need to ensure your PostgreSQL database is ready for UUIDs in the first place. Add these lines to a migration (or the generated one):
 
     enable_extension "uuid-ossp"
     enable_extension "pgcrypto"
 
-Also, you may want to reference this post for more about the initial setup of UUIDs in your app: [Rails 5.1 + Using a UUID as a primary key in ActiveRecord with PostgreSQL](https://lab.io/articles/2017/04/13/uuids-rails-5-1/)  
+Also, you may want to reference this post for more about the initial setup of UUIDs in your app: [Rails 5.1 + Using a UUID as a primary key in ActiveRecord with PostgreSQL](https://lab.io/articles/2017/04/13/uuids-rails-5-1/)
 
-[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/db/migrate/20180204011656_create_active_storage_tables.active_storage.rb)  
+[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/db/migrate/20180204011656_create_active_storage_tables.active_storage.rb)
 
 ## Changes to Tables
 
@@ -121,31 +122,31 @@ To this:
       t.index [ :record_type, :record_id, :name, :blob_id ], name: "index_active_storage_attachments_uniqueness", unique: true
     end
 
-[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/db/migrate/20180204011656_create_active_storage_tables.active_storage.rb)  
+[Full page example](https://github.com/wrburgess/active_storage_with_uuids/blob/master/db/migrate/20180204011656_create_active_storage_tables.active_storage.rb)
 
 ## Closing Remarks
 
-Yep, changing the migrations is mostly all there is to it. The biggest issue you're overcoming with these changes is that Rails does not understand utilizing UUIDs via the default generators, and the `t.reference` helpers and will incorrectly (for our purposes) set up the polymorphic and association IDs as normal, sequential integers.  
+Yep, changing the migrations is mostly all there is to it. The biggest issue you're overcoming with these changes is that Rails does not understand utilizing UUIDs via the default generators, and the `t.reference` helpers and will incorrectly (for our purposes) set up the polymorphic and association IDs as normal, sequential integers.
 
-Thus, the changes above explicitly tell Rails to use UUIDs instead of the traditional IDs for the necessary associations.  
+Thus, the changes above explicitly tell Rails to use UUIDs instead of the traditional IDs for the necessary associations.
 
 ## Feedback
 
-If you have problems with these instructions, please [shoot me an email](mailto:randy@allaboardapps.com) or [create an issue on the source repo](https://github.com/wrburgess/active_storage_with_uuids/issues) and I'll see what's up!  
+If you have problems with these instructions, please [shoot me an email](mailto:wrburgess@wrburgess.com) or [create an issue on the source repo](https://github.com/wrburgess/active_storage_with_uuids/issues) and I'll see what's up!
 
 ## Notes
 
-* The source code for my example (GitHub): [wrburgess/active_storage_with_uuids](https://github.com/wrburgess/active_storage_with_uuids)
-* [Installing Rails 5.2 rc1](http://weblog.rubyonrails.org/2017/3/20/Rails-5-1-rc1/)
-* [Ruby on Rails Switch From Sqlite3 to Postgres](https://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/) by Dave Ferrara
-* [Rails 5.1 + Using a UUID as a primary key in ActiveRecord with PostgreSQL](https://lab.io/articles/2017/04/13/uuids-rails-5-1/) by Adam Butler at Lab.io
-* Credit goes to Evil Martian's Andy Barnov and Vladimir Dementyev for their work on this post, which got me started: [Rails 5.2:
-Active Storage and beyond](https://evilmartians.com/chronicles/rails-5-2-active-storage-and-beyond)
-* There's derivate credit that goes to [Mike Gunderloy](https://afreshcup.com/about/) for an earlier post on the same subject: [Active Storage Samples](https://afreshcup.com/home/2017/07/23/activestorage-samples)
-* The official docs - [Rails Guides: Active Storage Overview](http://edgeguides.rubyonrails.org/active_storage_overview.html)
+- The source code for my example (GitHub): [wrburgess/active_storage_with_uuids](https://github.com/wrburgess/active_storage_with_uuids)
+- [Installing Rails 5.2 rc1](http://weblog.rubyonrails.org/2017/3/20/Rails-5-1-rc1/)
+- [Ruby on Rails Switch From Sqlite3 to Postgres](https://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/) by Dave Ferrara
+- [Rails 5.1 + Using a UUID as a primary key in ActiveRecord with PostgreSQL](https://lab.io/articles/2017/04/13/uuids-rails-5-1/) by Adam Butler at Lab.io
+- Credit goes to Evil Martian's Andy Barnov and Vladimir Dementyev for their work on this post, which got me started: [Rails 5.2:
+  Active Storage and beyond](https://evilmartians.com/chronicles/rails-5-2-active-storage-and-beyond)
+- There's derivate credit that goes to [Mike Gunderloy](https://afreshcup.com/about/) for an earlier post on the same subject: [Active Storage Samples](https://afreshcup.com/home/2017/07/23/activestorage-samples)
+- The official docs - [Rails Guides: Active Storage Overview](http://edgeguides.rubyonrails.org/active_storage_overview.html)
 
 ## Other things to check out
 
-* My company: [All Aboard Apps](https://www.allaboardapps.com)
-* My podcast: [CTO Think Podcast](https://www.ctothink.com)
-* My other podcast: [This Old App Podcast](https://thisoldapp.online)
+- My company: [All Aboard Apps](https://www.allaboardapps.com)
+- My podcast: [CTO Think Podcast](https://www.ctothink.com)
+- My other podcast: [This Old App Podcast](https://thisoldapp.online)
