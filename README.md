@@ -36,3 +36,5 @@
 ## Quality Control
 
 * FaviconGenerator/Validator, https://realfavicongenerator.net/favicon_checker
+
+## Bump for Release Test
