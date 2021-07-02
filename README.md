@@ -14,7 +14,7 @@
 
 * Install bundler: `gem install bundler`
 * Clone repo: `git clone git@github.com:allaboardapps/wrburgess-mm.git`
-* Move into local repo: `cd cto-think-website-mm`
+* Move into local repo: `cd wrburgess-mm`
 * Install gems: `bundle`
 
 ### Run site locally
