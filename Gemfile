@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.7.1"
+ruby "3.1.2"
 
 gem "builder", "3.2.4"
 gem "middleman", "4.4.2"
